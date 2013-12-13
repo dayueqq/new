@@ -1,8 +1,8 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>æ— æ ‡é¢˜æ–‡æ¡£</title>
+<meta http-equiv="Content-Type" content="text/html; charset=gb18030" />
+<title>ÎÞ±êÌâÎÄµµ</title>
 <link rel="stylesheet" href="../res/css/newtest.css">
 <script type="text/javascript">
 window.onload=function(){  
@@ -13,7 +13,7 @@ s?s.style.height = document.body.offsetHeight +50 +'px':'';
 } 
 </script>
 <script src="http://code.jquery.com/jquery-1.5.2.min.js" language="javascript"></script>
-<!--firefoxä¸‹iframeæ”¯æŒé”šç‚¹--> 
+<!--firefoxÏÂiframeÖ§³ÖÃªµã--> 
 <script type="text/javascript">
 $(function(){
 $("a").each(function (){
@@ -50,27 +50,51 @@ return false;
     <div id="dongguan" class="main">
     	<!--contant-list begin-->
     	<div class="contant-list">
-        	<!--car-list begin-->
-            <a name="carBox"></a>
-        	<ul class="car-list">
+        	<!--car-list begin-->9
+            <!--benz-->
+            <ul id="benz" class="car-list">
+            	<li class="car-list-card-middle 3"  onmouseout="closeVessel('operate10');" onmouseover="openVessel('operate10');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate10" class="operate" onmouseout="closeVessel('operate10');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>ËÍ3000Ôª¾«ÃÀÀñ°ü</p>
+                          <p>ÖÃ»»Ïí6000²¹Ìù</p>
+                          <p>ËÍÌÚÑ¶Àñ°ü</p>       
+                          <div class="innerCase1"></div>
+	                      <a href="XXXX" class="goShopping" id="goShopping" target="_blank">Á¢¼´ÇÀ¹º</a>
+  	                    </div>	   
+                    </div>
+                    	<img class="car-list-card-img" src="../res/images/mazda-kurui-2013ZG2.5L.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>¡¾î£Òí¡¿</span>2.5×ð¹ó°æAT</p>
+                        <p class="car-price"><span>Ö¸µ¼¼Û:&nbsp;</span><s class="car-fake-price">21.68Íò</s>
+                        <p class="car-real-price"><span>£¤</span>18.48Íò</p>
+                        </div>
+                    </div>
+                </li>  
+            	<p class="clear"></p>
+            </ul>
+            
+            <!--honda-->
+        	<ul id="honda" class="car-list">
                 <li class="car-list-card-middle 3"  onmouseout="closeVessel('operate1');" onmouseover="openVessel('operate1');">
                 	<div class="car-list-card-contant" >
                     <div id="operate1" class="operate" onmouseout="closeVessel('operate1');" style="display:none;">
                         <div class="opacityLayer">
                           <div class="innerCase"></div>
-                          <p>é€é˜²çˆ†è†œï¼Œåœ°æ¯¯</p>
-                          <p>é€æŒ¡æ³¥æ¿ï¼Œæ–¹å‘ç›˜é”</p>
-                          <p>é€å¤´æž•ï¼Œé¦™æ°´</p>
+                          <p>ËÍ·À±¬Ä¤£¬µØÌº</p>
+                          <p>ËÍµ²Äà°å£¬·½ÏòÅÌËø</p>
+                          <p>ËÍÍ·Õí£¬ÏãË®</p>
                           <div class="innerCase1"></div>
-	                      <a href="javascript:void(0)" class="goShopping" id="goShopping" onclick="signUpBox(13,155,415,6,79)">ç«‹å³æŠ¢è´­</a>
+	                      <a href="javascript:void(0)" class="goShopping" id="goShopping" onclick="signUpBox(13,155,415,6,79)">Á¢¼´ÇÀ¹º</a>
   	                    </div>	   
                     </div>
-                    	<a id="4" name="4"></a> 
                     	<img class="car-list-card-img" src="../res/images/honda-gesitu.jpg"/>
 						<div class="car-list-card-info">
-                        <p class="car-model"><span>ã€æ­Œè¯—å›¾ã€‘</span>å…¨ç³»è½¦åž‹</p>
-                        <p class="car-price"><span>æŒ‡å¯¼ä»·:&nbsp;</span><s class="car-fake-price">25.98ä¸‡-42.88ä¸‡</s>
-                        <p class="car-real-price"><span>ï¿¥</span>23.98ä¸‡-40.88ä¸‡</p>
+                        <p class="car-model"><span>¡¾¸èÊ«Í¼¡¿</span>È«Ïµ³µÐÍ</p>
+                        <p class="car-price"><span>Ö¸µ¼¼Û:&nbsp;</span><s class="car-fake-price">25.98Íò-42.88Íò</s>
+                        <p class="car-real-price"><span>£¤</span>23.98Íò-40.88Íò</p>
                         </div>
                     </div>
                 </li>
@@ -83,15 +107,14 @@ return false;
                           <p>&nbsp;</p>
                           <p>&nbsp;</p>
                           <div class="innerCase1"></div>
-	                      <a href="XXXX" class="goShopping" id="goShopping" target="_blank">ç«‹å³æŠ¢è´­</a>
+	                      <a href="javascript:void(0)" class="goShopping" id="goShopping" onclick="signUpBox(13,155,416,6,79)">Á¢¼´ÇÀ¹º</a>
   	                    </div>	   
                     </div>
-                    	<a id="4" name="4"></a> 
                     	<img class="car-list-card-img" src="../res/images/honda-lingpai.jpg"/>
 						<div class="car-list-card-info">
-                        <p class="car-model"><span>ã€å‡Œæ´¾ã€‘</span>å…¨ç³»è½¦åž‹</p>
-                        <p class="car-price"><span>æŒ‡å¯¼ä»·:&nbsp;</span><s class="car-fake-price">11.48ä¸‡-14.98ä¸‡</s>
-                        <p class="car-real-price"><span>ï¿¥</span>11.48ä¸‡-14.98ä¸‡</p>
+                        <p class="car-model"><span>¡¾ÁèÅÉ¡¿</span>È«Ïµ³µÐÍ</p>
+                        <p class="car-price"><span>Ö¸µ¼¼Û:&nbsp;</span><s class="car-fake-price">11.48Íò-14.98Íò</s>
+                        <p class="car-real-price"><span>£¤</span>11.48Íò-14.98Íò</p>
                         </div>
                     </div>
                 </li>
@@ -100,40 +123,43 @@ return false;
                     <div id="operate3" class="operate" onmouseout="closeVessel('operate3');" style="display:none;">
                         <div class="opacityLayer">
                           <div class="innerCase"></div>
-                          <p>é€é˜²çˆ†è†œï¼Œåœ°æ¯¯</p>
-                          <p>é€æŒ¡æ³¥æ¿ï¼Œæ–¹å‘ç›˜é”</p>
-                          <p>é€å¤´æž•ï¼Œé¦™æ°´</p>
+                          <p>ËÍ·À±¬Ä¤£¬µØÌº</p>
+                          <p>ËÍµ²Äà°å£¬·½ÏòÅÌËø</p>
+                          <p>ËÍÍ·Õí£¬ÏãË®</p>
                           <div class="innerCase1"></div>
-	                      <a href="XXXX" class="goShopping" id="goShopping" target="_blank">ç«‹å³æŠ¢è´­</a>
+	                      <a href="javascript:void(0)" class="goShopping" id="goShopping" onclick="signUpBox(13,155,730,6,79)">Á¢¼´ÇÀ¹º</a>
   	                    </div>	   
                     </div>
-                    	<a id="4" name="4"></a> 
                     	<img class="car-list-card-img" src="../res/images/honda-linian.jpg"/>
 						<div class="car-list-card-info">
-                        <p class="car-model"><span>ã€ç†å¿µã€‘</span>å…¨ç³»è½¦åž‹</p>
-                        <p class="car-price"><span>æŒ‡å¯¼ä»·:&nbsp;</span><s class="car-fake-price">7.88ä¸‡-9.98ä¸‡</s>
-                        <p class="car-real-price"><span>ï¿¥</span>7.88ä¸‡-9.08ä¸‡</p>
+                        <p class="car-model"><span>¡¾ÀíÄî¡¿</span>È«Ïµ³µÐÍ</p>
+                        <p class="car-price"><span>Ö¸µ¼¼Û:&nbsp;</span><s class="car-fake-price">7.88Íò-9.98Íò</s>
+                        <p class="car-real-price"><span>£¤</span>7.88Íò-9.08Íò</p>
                         </div>
                     </div>
-                </li>
-                <li class="car-list-card-middle 3"  onmouseout="closeVessel('operate4');" onmouseover="openVessel('operate4');">
+                </li>           
+                <p class="clear"></p>
+            </ul>
+            
+            <!--mazda-->
+            <ul id="mazda" class="car-list">
+            <li class="car-list-card-middle 3"  onmouseout="closeVessel('operate4');" onmouseover="openVessel('operate4');">
                 	<div class="car-list-card-contant" >
                     <div id="operate4" class="operate" onmouseout="closeVessel('operate4');" style="display:none;">
                         <div class="opacityLayer">
                           <div class="innerCase"></div>
-                          <p>é€3000å…ƒç²¾ç¾Žç¤¼åŒ…</p>
-                          <p>é€è…¾è®¯ç¤¼åŒ…</p>
+                          <p>ËÍ3000Ôª¾«ÃÀÀñ°ü</p>
+                          <p>ËÍÌÚÑ¶Àñ°ü</p>
                           <p>&nbsp;</p>
                           <div class="innerCase1"></div>
-	                      <a href="XXXX" class="goShopping" id="goShopping" target="_blank">ç«‹å³æŠ¢è´­</a>
+	                      <a href="XXXX" class="goShopping" id="goShopping" target="_blank">Á¢¼´ÇÀ¹º</a>
   	                    </div>	   
                     </div>
-                    	<a id="14" name="14"></a> 
                     	<img class="car-list-card-img" src="../res/images/mazda-6-2013CHHAT.jpg"/>
 						<div class="car-list-card-info">
-                        <p class="car-model"><span>ã€é©¬è‡ªè¾¾6ã€‘</span>2.0è¶…è±ªåŽåž‹AT2013æ¬¾</p>
-                        <p class="car-price"><span>æŒ‡å¯¼ä»·:&nbsp;</span><s class="car-fake-price">19.98ä¸‡</s>
-                        <p class="car-real-price"><span>ï¿¥</span>14.88ä¸‡</p>
+                        <p class="car-model"><span>¡¾Âí×Ô´ï6¡¿</span>2.0³¬ºÀ»ªÐÍAT2013¿î</p>
+                        <p class="car-price"><span>Ö¸µ¼¼Û:&nbsp;</span><s class="car-fake-price">17.08Íò-19.98Íò</s>
+                        <p class="car-real-price"><span>£¤</span>12.98Íò-14.88Íò</p>
                         </div>
                     </div>
                 </li>
@@ -142,19 +168,18 @@ return false;
                     <div id="operate6" class="operate" onmouseout="closeVessel('operate6');" style="display:none;">
                         <div class="opacityLayer">
                           <div class="innerCase"></div>
-                          <p>é€3000å…ƒç²¾ç¾Žç¤¼åŒ…</p>
-                          <p>é€è…¾è®¯ç¤¼åŒ…</p>
+                          <p>ËÍ3000Ôª¾«ÃÀÀñ°ü</p>
+                          <p>ËÍÌÚÑ¶Àñ°ü</p>
                           <p>&nbsp;</p>
                           <div class="innerCase1"></div>
-	                      <a href="XXXX" class="goShopping" id="goShopping" target="_blank">ç«‹å³æŠ¢è´­</a>
+	                      <a href="XXXX" class="goShopping" id="goShopping" target="_blank">Á¢¼´ÇÀ¹º</a>
   	                    </div>	   
                     </div>
-                    	<a id="14" name="14"></a> 
                     	<img class="car-list-card-img" src="../res/images/mazda-6-2013SSAT.jpg"/>
 						<div class="car-list-card-info">
-                        <p class="car-model"><span>ã€é©¬è‡ªè¾¾6ã€‘</span>2.0æ—¶å°šåž‹AT2013æ¬¾</p>
-                        <p class="car-price"><span>æŒ‡å¯¼ä»·:&nbsp;</span><s class="car-fake-price">17.98ä¸‡</s>
-                        <p class="car-real-price"><span>ï¿¥</span>13.88ä¸‡</p>
+                        <p class="car-model"><span>¡¾Âí×Ô´ï6¡¿</span>2.0Ê±ÉÐÐÍAT2013¿î</p>
+                        <p class="car-price"><span>Ö¸µ¼¼Û:&nbsp;</span><s class="car-fake-price">17.98Íò</s>
+                        <p class="car-real-price"><span>£¤</span>13.88Íò</p>
                         </div>
                     </div>
                 </li>
@@ -163,19 +188,18 @@ return false;
                     <div id="operate5" class="operate" onmouseout="closeVessel('operate5');" style="display:none;">
                         <div class="opacityLayer">
                           <div class="innerCase"></div>
-                          <p>é€3000å…ƒç²¾ç¾Žç¤¼åŒ…</p>
-                          <p>é€è…¾è®¯ç¤¼åŒ…</p>
+                          <p>ËÍ3000Ôª¾«ÃÀÀñ°ü</p>
+                          <p>ËÍÌÚÑ¶Àñ°ü</p>
                           <p>&nbsp;</p>
                           <div class="innerCase1"></div>
-	                      <a href="XXXX" class="goShopping" id="goShopping" target="_blank">ç«‹å³æŠ¢è´­</a>
+	                      <a href="XXXX" class="goShopping" id="goShopping" target="_blank">Á¢¼´ÇÀ¹º</a>
   	                    </div>	   
                     </div>
-                    	<a id="14" name="14"></a> 
                     	<img class="car-list-card-img" src="../res/images/mazda-6-2013SD.jpg"/>
 						<div class="car-list-card-info">
-                        <p class="car-model"><span>ã€é©¬è‡ªè¾¾6ã€‘</span>2.0æ‰‹åŠ¨åž‹2013æ¬¾</p>
-                        <p class="car-price"><span>æŒ‡å¯¼ä»·:&nbsp;</span><s class="car-fake-price">17.08ä¸‡</s>
-                        <p class="car-real-price"><span>ï¿¥</span>12.98ä¸‡</p>
+                        <p class="car-model"><span>¡¾Âí×Ô´ï6¡¿</span>2.0ÊÖ¶¯ÐÍ2013¿î</p>
+                        <p class="car-price"><span>Ö¸µ¼¼Û:&nbsp;</span><s class="car-fake-price">17.08Íò</s>
+                        <p class="car-real-price"><span>£¤</span>12.98Íò</p>
                         </div>
                     </div>
                 </li>     
@@ -184,19 +208,18 @@ return false;
                     <div id="operate7" class="operate" onmouseout="closeVessel('operate7');" style="display:none;">
                         <div class="opacityLayer">
                           <div class="innerCase"></div>
-                          <p>é€3000å…ƒç²¾ç¾Žç¤¼åŒ…</p>
-                          <p>ç½®æ¢äº«6000è¡¥è´´</p>
-                          <p>é€è…¾è®¯ç¤¼åŒ…</p> 
+                          <p>ËÍ3000Ôª¾«ÃÀÀñ°ü</p>
+                          <p>ÖÃ»»Ïí6000²¹Ìù</p>
+                          <p>ËÍÌÚÑ¶Àñ°ü</p> 
                           <div class="innerCase1"></div>
-	                      <a href="XXXX" class="goShopping" id="goShopping" target="_blank">ç«‹å³æŠ¢è´­</a>
+	                      <a href="XXXX" class="goShopping" id="goShopping" target="_blank">Á¢¼´ÇÀ¹º</a>
   	                    </div>	   
                     </div>
-                    	<a id="14" name="14"></a> 
                     	<img class="car-list-card-img" src="../res/images/mazda-8-ZZ.jpg"/>
 						<div class="car-list-card-info">
-                        <p class="car-model"><span>ã€é©¬è‡ªè¾¾8ã€‘</span>2.5è‡³å°Šç‰ˆ</p>
-                        <p class="car-price"><span>æŒ‡å¯¼ä»·:&nbsp;</span><s class="car-fake-price">24.98ä¸‡</s>
-                        <p class="car-real-price"><span>ï¿¥</span>24.38ä¸‡</p>
+                        <p class="car-model"><span>¡¾Âí×Ô´ï8¡¿</span>2.5ÖÁ×ð°æ</p>
+                        <p class="car-price"><span>Ö¸µ¼¼Û:&nbsp;</span><s class="car-fake-price">24.98Íò</s>
+                        <p class="car-real-price"><span>£¤</span>24.38Íò</p>
                         </div>
                     </div>
                 </li> 
@@ -205,19 +228,18 @@ return false;
                     <div id="operate8" class="operate" onmouseout="closeVessel('operate8');" style="display:none;">
                         <div class="opacityLayer">
                           <div class="innerCase"></div>
-                          <p>é€3000å…ƒç²¾ç¾Žç¤¼åŒ…</p>
-                          <p>ç½®æ¢äº«6000è¡¥è´´</p>
-                          <p>é€è…¾è®¯ç¤¼åŒ…</p>       
+                          <p>ËÍ3000Ôª¾«ÃÀÀñ°ü</p>
+                          <p>ÖÃ»»Ïí6000²¹Ìù</p>
+                          <p>ËÍÌÚÑ¶Àñ°ü</p>       
                           <div class="innerCase1"></div>
-	                      <a href="XXXX" class="goShopping" id="goShopping" target="_blank">ç«‹å³æŠ¢è´­</a>
+	                      <a href="XXXX" class="goShopping" id="goShopping" target="_blank">Á¢¼´ÇÀ¹º</a>
   	                    </div>	   
-                    </div>
-                    	<a id="14" name="14"></a> 
+                    </div> 
                     	<img class="car-list-card-img" src="../res/images/mazda-kurui-2013HH2.0L.jpg"/>
 						<div class="car-list-card-info">
-                        <p class="car-model"><span>ã€ç¿ç¿¼ã€‘</span>2.0è±ªåŽç‰ˆAT</p>
-                        <p class="car-price"><span>æŒ‡å¯¼ä»·:&nbsp;</span><s class="car-fake-price">19.48ä¸‡</s>
-                        <p class="car-real-price"><span>ï¿¥</span>17.08ä¸‡</p>
+                        <p class="car-model"><span>¡¾î£Òí¡¿</span>2.0ºÀ»ª°æAT</p>
+                        <p class="car-price"><span>Ö¸µ¼¼Û:&nbsp;</span><s class="car-fake-price">19.48Íò</s>
+                        <p class="car-real-price"><span>£¤</span>17.08Íò</p>
                         </div>
                     </div>
                 </li>
@@ -226,23 +248,46 @@ return false;
                     <div id="operate9" class="operate" onmouseout="closeVessel('operate9');" style="display:none;">
                         <div class="opacityLayer">
                           <div class="innerCase"></div>
-                          <p>é€3000å…ƒç²¾ç¾Žç¤¼åŒ…</p>
-                          <p>ç½®æ¢äº«6000è¡¥è´´</p>
-                          <p>é€è…¾è®¯ç¤¼åŒ…</p>       
+                          <p>ËÍ3000Ôª¾«ÃÀÀñ°ü</p>
+                          <p>ÖÃ»»Ïí6000²¹Ìù</p>
+                          <p>ËÍÌÚÑ¶Àñ°ü</p>       
                           <div class="innerCase1"></div>
-	                      <a href="XXXX" class="goShopping" id="goShopping" target="_blank">ç«‹å³æŠ¢è´­</a>
+	                      <a href="XXXX" class="goShopping" id="goShopping" target="_blank">Á¢¼´ÇÀ¹º</a>
   	                    </div>	   
                     </div>
-                    	<a id="14" name="14"></a> 
                     	<img class="car-list-card-img" src="../res/images/mazda-kurui-2013ZG2.5L.jpg"/>
 						<div class="car-list-card-info">
-                        <p class="car-model"><span>ã€ç¿ç¿¼ã€‘</span>2.5å°Šè´µç‰ˆAT</p>
-                        <p class="car-price"><span>æŒ‡å¯¼ä»·:&nbsp;</span><s class="car-fake-price">21.68ä¸‡</s>
-                        <p class="car-real-price"><span>ï¿¥</span>18.48ä¸‡</p>
+                        <p class="car-model"><span>¡¾î£Òí¡¿</span>2.5×ð¹ó°æAT</p>
+                        <p class="car-price"><span>Ö¸µ¼¼Û:&nbsp;</span><s class="car-fake-price">21.68Íò</s>
+                        <p class="car-real-price"><span>£¤</span>18.48Íò</p>
                         </div>
                     </div>
-                </li>             
-                <p class="clear"></p>
+                </li>  
+            	<p class="clear"></p>
+            </ul>
+            
+            <ul id="" class="car-list">
+            	<li class="car-list-card-middle 3"  onmouseout="closeVessel('operate9');" onmouseover="openVessel('operate9');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate9" class="operate" onmouseout="closeVessel('operate9');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>ËÍ3000Ôª¾«ÃÀÀñ°ü</p>
+                          <p>ÖÃ»»Ïí6000²¹Ìù</p>
+                          <p>ËÍÌÚÑ¶Àñ°ü</p>       
+                          <div class="innerCase1"></div>
+	                      <a href="XXXX" class="goShopping" id="goShopping" target="_blank">Á¢¼´ÇÀ¹º</a>
+  	                    </div>	   
+                    </div>
+                    	<img class="car-list-card-img" src="../res/images/mazda-kurui-2013ZG2.5L.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>¡¾î£Òí¡¿</span>2.5×ð¹ó°æAT</p>
+                        <p class="car-price"><span>Ö¸µ¼¼Û:&nbsp;</span><s class="car-fake-price">21.68Íò</s>
+                        <p class="car-real-price"><span>£¤</span>18.48Íò</p>
+                        </div>
+                    </div>
+                </li>  
+            	<p class="clear"></p>
             </ul>
             <!--car-list end-->
         </div>

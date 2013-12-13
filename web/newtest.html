@@ -1,33 +1,58 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=gb18030" />
 <meta http-equiv="content-language" content="zh-CN">
-<title>å¤§ç²¤æ±½è½¦ç½‘-æ±½è½¦å‚ä»·ç›´æ¨</title>
+<title>´óÔÁÆû³µÍø-Æû³µ³§¼ÛÖ±ÍÆ</title>
 
 <script src="../res/js/jquery-1.4.2.min.js" type="text/javascript" ></script>
-<meta name="Keywords" content="å¤§ç²¤æ±½è½¦ç½‘-æ±½è½¦å‚ä»·ç›´æ¨">
-<meta name="Description" content="å¤§ç²¤æ±½è½¦ç½‘ï¼Œä¸ºä½ æä¾›æ¯”4Såº—æ›´ä½çš„ä»·æ ¼ï¼Œåº•ä»·ç›´æ¨">
+<meta name="Keywords" content="´óÔÁÆû³µÍø-Æû³µ³§¼ÛÖ±ÍÆ">
+<meta name="Description" content="´óÔÁÆû³µÍø£¬ÎªÄãÌá¹©±È4Sµê¸üµÍµÄ¼Û¸ñ£¬µ×¼ÛÖ±ÍÆ">
 <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7"/>
 <link rel="shortcut icon" href="/favicon.ico" >
-<title>åŒåä¸€ç–¯ç‹‚æŠ¢è´­</title>
+<title>Ë«Ê®Ò»·è¿ñÇÀ¹º</title>
 <link rel="stylesheet" href="../res/css/newtest.css">
 <script src="http://code.jquery.com/jquery-1.5.2.min.js" language="javascript"></script>
+<script src="../res/js/jquery.scrollTo.js" type="text/javascript"></script>
 <script src="../res/js/newtest.js" type="text/javascript" ></script>
 <script src="../res/js/jquery.foucs.js" type="text/javascript" ></script>
-<!--æŠ¥åè¡¨å¤–è°ƒæ•°æ®-->
+<!--±¨Ãû±íÍâµ÷Êı¾İ-->
 <script type="text/javascript" src="http://www.carexp.com.cn/js/brand_list.js"></script>
 <script type="text/javascript" src="http://www.carexp.com.cn/js/brand_list2.js"></script>
 <script type="text/javascript" src="http://www.carexp.com.cn/js/serial_list2.js"></script>
 <script type="text/javascript" src="http://www.carexp.com.cn/js/address1.js"></script>
 <script type="text/javascript" src="http://www.carexp.com.cn/js/address2.js"></script>
 <script type="text/javascript" src="http://www.carexp.com.cn/js/address3.js"></script>
+
 <script type="text/javascript">
 $(document).ready(function(){
 	$.foucs({
 		direction: 'right'
 	});
 });
+
+function parseQuery()
+					{
+						var web="http://www.carexp.com.cn/"; //Âò³µÍ¨ÍøÖ·
+						var url="";
+						var query = window.location.href;
+						url=web+"autosignup.php?u="+query;
+						
+						url = url.replace(/["'<>()]/g, '');//2013Äê9ÔÂ29ÈÕÌ·ÉĞç÷½â¾öXSSÂ©¶´
+						url = url.replace(/\+/g, ' ');
+							
+						//alert(url);
+						
+						return url;
+					} 
+$(document.head).append($('<script src="http://carexp.com.cn/autosignupnum.php?u='+window.location.href+'" type="text/javascript"></sc'+'ript>"'));
+// »ñÈ¡±¨ÃûÊıÁ¿»Øµ÷
+function jsonpCallback(result){
+  $(".BaoMing_Shu").html(result.count);
+  var wholenum =result.count; 
+  var wnum = document.getElementById("wnum");
+  wnum.innerHTML = wholenum;
+}       
 </script>
 
 </head>
@@ -50,10 +75,10 @@ $(document).ready(function(){
 	<div id="fullbanner">
 		<div class="wrappic">
 			<ul>
-				<li class="plan"><a href="XXXX" target="_blank"><img width="950" height="400" src="../res/img/1.jpg" alt="å¥”é©°" /></a></li>
-				<li class="plan"><a href="XXXX" target="_blank"><img width="950" height="400" src="../res/img/2.jpg" alt="å¥¥è¿ª" /></a></li>
-				<li class="plan"><a href="XXXX" target="_blank"><img width="950" height="400" src="../res/img/3.jpg" alt="å®é©¬" /></a></li>
-				<li class="plan"><a href="XXXX" target="_blank"><img width="950" height="400" src="../res/img/4.jpg" alt="ä¸°ç”°" /></a></li>
+				<li class="plan"><a href="XXXX" target="_blank"><img width="950" height="400" src="../res/img/1.jpg" alt="±¼³Û" /></a></li>
+				<li class="plan"><a href="XXXX" target="_blank"><img width="950" height="400" src="../res/img/2.jpg" alt="°ÂµÏ" /></a></li>
+				<li class="plan"><a href="XXXX" target="_blank"><img width="950" height="400" src="../res/img/3.jpg" alt="±¦Âí" /></a></li>
+				<li class="plan"><a href="XXXX" target="_blank"><img width="950" height="400" src="../res/img/4.jpg" alt="·áÌï" /></a></li>
 			</ul>
 		</div>
 		
@@ -70,18 +95,18 @@ $(document).ready(function(){
     <!--nav begin-->
     <div class="nav" id="nav">
     	<div class="nav-head">
-        <p>â€”â€”&nbsp;&nbsp;&nbsp;&nbsp;ç‰¹&nbsp;&nbsp;æƒ &nbsp;&nbsp;å–&nbsp;&nbsp;åœº&nbsp;&nbsp;&nbsp;&nbsp;â€”â€”</p>
+        <p>&mdash;&mdash;&nbsp;&nbsp;&nbsp;&nbsp;ÌØ&nbsp;&nbsp;»İ&nbsp;&nbsp;Âô&nbsp;&nbsp;³¡&nbsp;&nbsp;&nbsp;&nbsp;&mdash;&mdash;</p>
         </div>
         <div class="price-nav">
         	<ul class="price-nav-ul">
-               <li class="price-nav-list"><a href="dongguan.html#carBox" target="carMainBox" onclick="selectPrice(0)">&nbsp;&nbsp;å…¨éƒ¨&nbsp;&nbsp;</a></li>
-               <li class="price-nav-list"><a href="dongguan.html#carBox" target="carMainBox" onclick="selectPrice(1)">10W ä»¥ä¸‹</a></li>
+               <li class="price-nav-list"><a href="dongguan.html#carBox" target="carMainBox" onclick="selectPrice(0)">&nbsp;&nbsp;È«²¿&nbsp;&nbsp;</a></li>
+               <li class="price-nav-list"><a href="dongguan.html#carBox" target="carMainBox" onclick="selectPrice(1)">10W ÒÔÏÂ</a></li>
                <li class="price-nav-list"><a href="dongguan.html#carBox" target="carMainBox" onclick="selectPrice(2)">10W-20W</a></li>
                <li class="price-nav-list"><a href="dongguan.html#carBox" target="carMainBox" onclick="selectPrice(3)">20W-40W</a></li>
                <li class="price-nav-list"><a href="dongguan.html#carBox" target="carMainBox" onclick="selectPrice(4)">40W-60W</a></li>
                <li class="price-nav-list"><a href="dongguan.html#carBox" target="carMainBox" onclick="selectPrice(5)">60W-80W</a></li>
                <li class="price-nav-list"><a href="dongguan.html#carBox" target="carMainBox" onclick="selectPrice(6)">80W-90W</a></li>
-               <li class="price-nav-list"><a href="dongguan.html#carBox" target="carMainBox" onclick="selectPrice(7)">100Wä»¥ä¸Š</a></li>
+               <li class="price-nav-list"><a href="dongguan.html#carBox" target="carMainBox" onclick="selectPrice(7)">100WÒÔÉÏ</a></li>
             </ul>
         </div>
     </div>
@@ -95,72 +120,88 @@ $(document).ready(function(){
     <!--showBaoming-->
     <div class="showBaoming">
     	<div class="showBaomingTitle">
-        	<p>å·²æŠ¥åç½‘å‹</p>
-            <p>æ€»æŠ¥åäººæ•°ï¼š</p>
+        	<p class="realtitle">ÒÑ±¨ÃûÍøÓÑ</p>
+            <p class="wholenum">×Ü±¨ÃûÈËÊı£º<span id="wnum"></span></p>
         </div>
         <div class="baomingList">
+        		<!--ÏÔÊ¾Êı¾İ¿ªÊ¼-->
+				<script type="text/javascript">
+					document.write('<iframe name="ql_dc" src="' + parseQuery() + '" frameborder="no" id="ql_dc" height="100%" width="100%"></iframe>');
+						
+					function size()
+					{
+						document.getElementById("ql_dc").style.height = "450px";
+					}
+					window.onresize = size;
+					window.onload = size;
+					var timer = setInterval(size, 200);
+                </script>
+                <!--ÏÔÊ¾Êı¾İ½áÊø-->
         </div>
     </div>
     <!--showBaoming end--> 
       
     <!--signUpBox-->
    		<div id="signUpBox" class="signUpBoxBack">
-        	<div class="signUpBox">
+       	  <div class="signUpBox">
             <div class="baoming-title">
-            	<p>ç«‹åˆ»æŠ¥åæŠ¢è®¢å±äºæ‚¨çš„å°Šè´µåé©¾</p>
-                <a href="javascript:void(0)" onclick="closeSignUpBox()">å…³é—­</a>
+            	<p>Á¢¿Ì±¨ÃûÇÀ¶©ÊôÓÚÄúµÄ×ğ¹ó×ø¼İ</p>
+                <a href="javascript:void(0)" onclick="closeSignUpBox()">¹Ø±Õ</a>
             </div>
             <form action="http://www.carexp.com.cn/enroll_post.php" method="post" target="enroll_post_iframe">
+            	<iframe name="enroll_post_iframe" id="enroll_post_iframe" width="0" height="0"
+                frameborder="no">
+                </iframe>
                 <div class="tbl_enroll_div">
                     <table width="570" border="0" cellpadding="0" cellspacing="1" class="tbl_enroll">
                         <tbody>
                             <tr>
                                 <td width="110" height="27" align="right" class="cell1">
                                     <p>
-                                        æ„å‘è½¦å‹
+                                        ÒâÏò³µĞÍ
                                     </p>
                                 </td>
                                 <td width="300" height="27">
-                                    <!--å“ç‰Œå¼€å§‹-->
+                                    <!--Æ·ÅÆ¿ªÊ¼-->
                                     <select class="input_kuang2" id="sl_manuf1" onchange="changeManu1()" disabled="disabled">
                                         <option value="">
-                                            é€‰æ‹©ä¸€çº§å“ç‰Œ
+                                            Ñ¡ÔñÒ»¼¶Æ·ÅÆ
                                         </option>
                                     </select>
                                     <select class="input_kuang2" id="sl_manuf2" onchange="changeManu2()" disabled="disabled">
                                         <option value="">
-                                            é€‰æ‹©äºŒçº§å“ç‰Œ
+                                            Ñ¡Ôñ¶ş¼¶Æ·ÅÆ
                                         </option>
                                     </select>
-                                    <select class="input_kuang2" id="sl_serial" name="brand_id" disabled="disabled">
+                                    <select class="input_kuang2" id="sl_serial" name="brand_id" >
                                         <option value="">
-                                            é€‰æ‹©è½¦ç³»
+                                            Ñ¡Ôñ³µÏµ
                                         </option>
                                     </select>
-                                    <!--å“ç‰Œç»“æŸ-->
+                                    <!--Æ·ÅÆ½áÊø-->
                                 </td>
                             </tr>
                             <tr>
                                 <td width="110" height="27" align="right" class="cell1">
                                     <p>
-                                        æ‰€åœ¨åœ°åŒº
+                                        ËùÔÚµØÇø
                                     </p>
                                 </td>
                                 <td width="280" height="27">
-                                    <!--åœ°åŒºå¼€å§‹-->
+                                    <!--µØÇø¿ªÊ¼-->
                                     <select class="input_kuang2" id="address1" onchange="addMunu1()" disabled="disabled">
                                         <option id="6" value="6" selected="selected">
-                                            å¹¿ä¸œçœ
+                                            ¹ã¶«Ê¡
                                         </option>
                                     </select>                                  
                                     <select class="input_kuang2" id="address2" onchange="addMunu2()" disabled="disabled">
                                         <option id="79" value="79" selected="selected">
-                                            ä¸œè
+                                            ¶«İ¸
                                         </option>
                                     </select>
                                     <select name="rid" id="address3">
                                         <option value="">
-                                            è¯·é€‰æ‹©
+                                            ÇëÑ¡Ôñ
                                         </option>
                                     </select>
                                 </td>
@@ -168,21 +209,21 @@ $(document).ready(function(){
                             <tr>
                                 <td width="110" height="27" align="right" class="cell1">
                                     <p>
-                                        æ‚¨çš„å§“å
+                                        ÄúµÄĞÕÃû
                                     </p>
                                 </td>
                                 <td width="280">
                                     <input type="text" name="customer" id="customer" class="enroll_txt1" size="6">
                                     <input type="radio" name="sex" value="0" checked="checked">
-                                    å…ˆç”Ÿ
+                                    ÏÈÉú
                                     <input type="radio" name="sex" value="1">
-                                    å¥³å£«
+                                    Å®Ê¿
                                 </td>
                             </tr>
                             <tr>
                                 <td width="110" height="27" align="right" class="cell1">
                                     <p>
-                                        è”ç³»ç”µè¯
+                                        ÁªÏµµç»°
                                     </p>
                                 </td>
                                 <td width="280" height="27">
@@ -195,7 +236,7 @@ $(document).ready(function(){
                                 <td width="280" align="left">
                                     <input type="hidden" name="region_id" id="region_id" value="79">
                                     <input type="hidden" name="source_url" id="source_url">
-                                    <input type="submit" value="ç«‹å³æŠ¥å" class="enroll_btn" onclick="return enroll_mysubmit();">
+                                    <input type="submit" value="Á¢¼´±¨Ãû" class="enroll_btn" onclick="return enroll_mysubmit();">
                                 </td>
                             </tr>
                         </tbody>
@@ -209,17 +250,17 @@ $(document).ready(function(){
                 }
                 function enroll_mysubmit() {
                     if ($("#customer").val() == "") {
-                        alert("è¯·å¡«å†™å§“åï¼");
+                        alert("ÇëÌîĞ´ĞÕÃû£¡");
                         $("#customer").focus();
                         return false;
                     }
 					if ($("#address3").val() == "") {
-                        alert("è¯·é€‰æ‹©åœ°åŒºï¼");
+                        alert("ÇëÑ¡ÔñµØÇø£¡");
                         $("#address3").focus();
                         return false;
                     }
                     if ($("#phone").val() == "") {
-                        alert("è¯·å¡«å†™ç”µè¯ï¼");
+                        alert("ÇëÌîĞ´µç»°£¡");
                         $("#phone").focus();
                         return false;
                     }
@@ -228,7 +269,7 @@ $(document).ready(function(){
                 }
             </script>
             <script type="text/javascript">
-                //3çº§å“ç‰Œçº§è”
+                //3¼¶Æ·ÅÆ¼¶Áª
 				function sureBrand(brandId,secondBrandId,series){
 					var data = oManufacturerData.arrManufacturer;
 					var sl_manuf1 = document.getElementById("sl_manuf1");
@@ -249,7 +290,7 @@ $(document).ready(function(){
                     var sl_manuf2 = document.getElementById("sl_manuf2");
                     sl_manuf2.innerHTML = "";
                     var oo = document.createElement("option");
-                    oo.innerHTML = "é€‰æ‹©å“ç‰Œ";
+                    oo.innerHTML = "Ñ¡ÔñÆ·ÅÆ";
                     sl_manuf2.appendChild(oo);
                     var data2 = oManufacturerData2.arrManufacturer2;
                     var sl_manuf1 = document.getElementById("sl_manuf1");
@@ -272,7 +313,7 @@ $(document).ready(function(){
                     var sl_serial = document.getElementById("sl_serial");
                     sl_serial.innerHTML = "";
                     var oo = document.createElement("option");
-                    oo.innerHTML = "é€‰æ‹©è½¦ç³»";
+                    oo.innerHTML = "Ñ¡Ôñ³µÏµ";
                     sl_serial.appendChild(oo);
                     var data2 = oManufacturerSerialData.arrSerial;
                     var sl_manuf2 = document.getElementById("sl_manuf2");
@@ -284,7 +325,7 @@ $(document).ready(function(){
                             o2.value = data2[i].id;
                             o2.innerHTML = data2[i].name;
                             sl_serial.appendChild(o2);
-							if (data2[i].id == series) {
+							if (data2[i].id == series){
 							o2.selected = "selected";
 							}
                         }
@@ -292,7 +333,7 @@ $(document).ready(function(){
                 }
             </script>
             <script type="text/javascript">
-                //3çº§åœ°åŒºçº§è”
+                //3¼¶µØÇø¼¶Áª
 				function sureArea(province,city){
 					var data = addData.arrAdd;
 					var address1 = document.getElementById("address1");
@@ -317,7 +358,7 @@ $(document).ready(function(){
                     var address1 = document.getElementById("address1");
                     mid = address1.options[address1.selectedIndex].id;
                     //oo.value = mid;
-                    oo.innerHTML = "é€‰æ‹©å¸‚";
+                    oo.innerHTML = "Ñ¡ÔñÊĞ";
                     address2.appendChild(oo);
                     var data2 = addData2.arrAdd2;
                     for (var i = 0; i < data2.length; i++) {
@@ -342,7 +383,7 @@ $(document).ready(function(){
                     address3.innerHTML = "";
                     var oo = document.createElement("option");
                     oo.value = mid;
-                    oo.innerHTML = "é€‰æ‹©åŒº";
+                    oo.innerHTML = "Ñ¡ÔñÇø";
                     address3.appendChild(oo);
                     var data2 = addData3.arrAdd3;
                     for (var i = 0; i < data2.length; i++) {
@@ -360,113 +401,113 @@ $(document).ready(function(){
         </div>
     <!--signUpBox end-->
       
-    <!--left-nav begin-->
+<!--left-nav begin-->
     <div class="leftzone">
     	<div class="left-ul-title">
-        	<p>å“ç‰Œå®šä½</p>
+        	<p>Æ·ÅÆ¶¨Î»</p>
         </div>
         <div class="left-ul-box">
         	<ul id="left-ul">
             	<li>
-                	<a class="brand" href="dongguan.html#0" target="carMainBox"><!--audi-->
+                	<a class="brand"  target="carMainBox" onclick="getAndFocus('audi')"><!--audi-->
                     	<div class="audi"></div>
-                        <p>å¥¥è¿ª</p>
+                        <p>°ÂµÏ</p>
                     </a>
                 </li>
                 <li>
-                	<a class="brand" href="dongguan.html#1" target="carMainBox"><!--benz-->
+                	<a class="brand"  target="carMainBox" onclick="getAndFocus('benz')"><!--benz-->
                     	<div class="benz"></div>
-                        <p>å¥”é©°</p>
+                        <p>±¼³Û</p>
                     </a>
                 </li>
                 <li>
-                	<a class="brand" href="dongguan.html#2" target="carMainBox"><!--bmw-->
+                	<a class="brand"  target="carMainBox" onclick="getAndFocus('bmw')"><!--bmw-->
                     	<div class="bmw"></div>
-                        <p>å®é©¬</p>
+                        <p>±¦Âí</p>
                     </a>
                 </li>
                 <li>
-                	<a class="brand" href="dongguan.html#3" target="carMainBox"><!--chevy-->
+                	<a class="brand"  target="carMainBox" onclick="getAndFocus('chevy')"><!--chevy-->
                     	<div class="chevy"></div>
-                        <p>é›ªä½›å…°</p>
+                        <p>Ñ©·ğÀ¼</p>
                     </a>
                 </li>
                 <li>
-                	<a class="brand" href="dongguan.html#4" target="carMainBox"><!--honda-->
+                	<a class="brand"  target="carMainBox"  onclick="getAndFocus('honda')"><!--honda-->
                     	<div class="honda"></div>
-                        <p>æœ¬ç”°</p>
+                        <p>±¾Ìï</p>
                     </a>
                 </li>
                 <li>
-                	<a class="brand" href="dongguan.html#5" target="carMainBox"><!--toyata-->
+                	<a class="brand" target="carMainBox"  onclick="getAndFocus('toyata')"><!--toyata-->
                     	<div class="toyota"></div>
-                        <p>ä¸°ç”°</p>
+                        <p>·áÌï</p>
                     </a>
                 </li>
                 <li>
-                	<a class="brand" href="dongguan.html#6" target="carMainBox"><!--hyundai-->
+                	<a class="brand"  target="carMainBox"  onclick="getAndFocus('hyundai')"><!--hyundai-->
                     	<div class="hyundai"></div>
-                        <p>ç°ä»£</p>
+                        <p>ÏÖ´ú</p>
                     </a>
                 </li>
                 <li>
-                	<a class="brand" href="dongguan.html#7" target="carMainBox"><!--volkwagen-->
+                	<a class="brand"  target="carMainBox"  onclick="getAndFocus('volkwagen')"><!--volkwagen-->
                     	<div class="volkswagen"></div>
-                        <p>å¤§ä¼—</p>
+                        <p>´óÖÚ</p>
                     </a>
                 </li>
                 <li>
-                	<a class="brand" href="dongguan.html#8" target="carMainBox"><!--buick-->
+                	<a class="brand" target="carMainBox"  onclick="getAndFocus('buick')"><!--buick-->
                     	<div class="buick"></div>
-                        <p>åˆ«å…‹</p>
+                        <p>±ğ¿Ë</p>
                     </a>
                 </li>
                 <li>
-                	<a class="brand" href="dongguan.html#9" target="carMainBox"><!--lexus-->
+                	<a class="brand"  target="carMainBox"  onclick="getAndFocus('lexus')"><!--lexus-->
                     	<div class="lexus"></div>
-                        <p>é›·å…‹è¨æ–¯</p>
+                        <p>À×¿ËÈøË¹</p>
                     </a>
                 </li>
                 <li>
-                	<a class="brand" href="dongguan.html#10" target="carMainBox"><!--pulchritube-->
+                	<a class="brand" target="carMainBox"  onclick="getAndFocus('pulchritube')"><!--pulchritube-->
                     	<div class="pulchritube"></div>
-                        <p>æ ‡è‡´</p>
+                        <p>±êÖÂ</p>
                     </a>
                 </li>
                 <li>
-                	<a class="brand" href="dongguan.html#11" target="carMainBox"><!--citroen-->
+                	<a class="brand" target="carMainBox"  onclick="getAndFocus('citroen')"><!--citroen-->
                     	<div class="citroen"></div>
-                        <p>é›ªé“é¾™</p>
+                        <p>Ñ©ÌúÁú</p>
                     </a>
                 </li>
                 <li>
-                	<a class="brand" href="dongguan.html#12" target="carMainBox"><!--nissan-->
+                	<a class="brand"  target="carMainBox"  onclick="getAndFocus('nissan')"><!--nissan-->
                     	<div class="nissan"></div>
-                        <p>æ—¥äº§</p>
+                        <p>ÈÕ²ú</p>
                     </a>
                 </li>
                 <li>
-                	<a class="brand" href="dongguan.html#13" target="carMainBox"><!--mitsubishi-->
+                	<a class="brand" target="carMainBox"  onclick="getAndFocus('mitsubishi')"><!--mitsubishi-->
                     	<div class="mitsubishi"></div>
-                        <p>ä¸‰è±</p>
+                        <p>ÈıÁâ</p>
                     </a>
                 </li>
                 <li>
-                	<a class="brand" href="dongguan.html#14" target="carMainBox"><!--mazda-->
+                	<a class="brand"  target="carMainBox"  onclick="getAndFocus('mazda')"><!--mazda-->
                     	<div class="mazda"></div>
-                        <p>é©¬è‡ªè¾¾</p>
+                        <p>Âí×Ô´ï</p>
                     </a>
                 </li>
                 <li>
-                	<a class="brand" href="dongguan.html#15" target="carMainBox"><!--kia-->
+                	<a class="brand"  target="carMainBox"  onclick="getAndFocus('kia')"><!--kia-->
                     	<div class="kia"></div>
-                        <p>èµ·äºš</p>
+                        <p>ÆğÑÇ</p>
                     </a>
                 </li>
                 <li>
-                	<a class="brand" href="dongguan.html#16" target="carMainBox"><!--subaru-->
+                	<a class="brand" target="carMainBox"  onclick="getAndFocus('subaru')"><!--subaru-->
                     	<div class="subaru"></div>
-                        <p>æ–¯å·´é²</p>
+                        <p>Ë¹°ÍÂ³</p>
                     </a>
                 </li>
             </ul>
@@ -477,22 +518,22 @@ $(document).ready(function(){
     <!--right-nav begin-->
         <div class="right-nav">
     	<div class="right-ul-title">
-        	<p>åœ°åŒºå®šä½</p>
+        	<p>µØÇø¶¨Î»</p>
         </div>
         <div class="right-ul-box">
         	<ul>
-            	<li><a href="javascript:void(0)" onclick="changeAera(1)">ä¸œ&nbsp&nbsp è</a></li>
-                <li><a href="javascript:void(0)" onclick="changeAera(2)">æƒ &nbsp&nbsp å·</a></li>
-                <li><a href="#">ç &nbsp&nbsp æµ·</a></li>
-                <li><a href="#">æ±Ÿ&nbsp&nbsp é—¨</a></li>
-                <li><a href="#">ä½›&nbsp&nbsp å±±</a></li>
-                <li><a href="#">å¹¿&nbsp&nbsp å·</a></li>
-                <li><a href="#">æ·±&nbsp&nbsp åœ³</a></li>
-                <li><a href="#">ç²¤&nbsp&nbsp ä¸œ</a></li>
-                <li><a href="#">ç²¤&nbsp&nbsp è¥¿</a></li>
+            	<li><a href="javascript:void(0)" onclick="changeAera(1)">¶«&nbsp&nbsp İ¸</a></li>
+                <li><a href="javascript:void(0)" onclick="changeAera(2)">»İ&nbsp&nbsp Öİ</a></li>
+                <li><a href="#">Öé&nbsp&nbsp º£</a></li>
+                <li><a href="#">½­&nbsp&nbsp ÃÅ</a></li>
+                <li><a href="#">·ğ&nbsp&nbsp É½</a></li>
+                <li><a href="#">¹ã&nbsp&nbsp Öİ</a></li>
+                <li><a href="#">Éî&nbsp&nbsp ÛÚ</a></li>
+                <li><a href="#">ÔÁ&nbsp&nbsp ¶«</a></li>
+                <li><a href="#">ÔÁ&nbsp&nbsp Î÷</a></li>
             </ul>
             <div class="right-ul-title">
-        		<p>æ‰«ä¸€æ‰«</p>
+        		<p>É¨Ò»É¨</p>
         	</div>
             <img src="../res/img/rightNav/semocodeBig.jpg" width="103" height="103" />
         </div>
@@ -531,6 +572,19 @@ $(document).ready(function(){
 				}
              }   
           });
+		  
+		  
+   //jsÄ£ÄâÃªµã´©Ô½iframe²¢ÇÒÆ½»¬¹ö¶¯  ³ÂË¸±ó Õâ¼¸ĞĞ´úÂëÓÃÁËÒ»Ìì2013/12/13
+   function getAndFocus(brand){
+	var iframeBox = document.getElementById("carMainBox").contentWindow;
+	var point = iframeBox.document.getElementById(brand);
+	if(point == null )
+	     alert("ÄúËùÑ¡ÔñµÄÆ·ÅÆÔİÎŞ»î¶¯³µĞÍ,¾´ÇëÆÚ´ı£¡");
+	else{
+	     var height = $(point).offset().top+800;
+	     $.scrollTo(height, 300);
+	     }
+   }
     </script>
 </body>
 </html>

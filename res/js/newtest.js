@@ -14,16 +14,16 @@ function changeAera(num){
 	var iframe = document.getElementById("carMainBox");
 	if(num == 1){
 		iframe.src = "dongguan.html";
-		var carBrand = document.getElementById("left-ul");
-		var linkTarget = carBrand.getElementsByTagName("a");
-		for(var i=0 ; i < linkTarget.length; i++)
-		 	linkTarget[i].href="dongguan.html#"+i;
+		//var carBrand = document.getElementById("left-ul");
+		//var linkTarget = carBrand.getElementsByTagName("a");
+		//for(var i=0 ; i < linkTarget.length; i++)
+		 	//linkTarget[i].href="dongguan.html#"+i;
 	}else if(num == 2){
 		iframe.src = "huizhou.html";
-		var carBrand = document.getElementById("left-ul");
-		var linkTarget = carBrand.getElementsByTagName("a");
-		for(var i=0 ; i < linkTarget.length; i++)
-		 	linkTarget[i].href="huizhou.html#"+i;
+		//var carBrand = document.getElementById("left-ul");
+		//var linkTarget = carBrand.getElementsByTagName("a");
+		//for(var i=0 ; i < linkTarget.length; i++)
+		 //	linkTarget[i].href="huizhou.html#"+i;
 	}
 }
 

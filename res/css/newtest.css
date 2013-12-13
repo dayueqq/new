@@ -726,6 +726,35 @@ body {
 
 
 
+/*baomingShow*/
+.showBaomingTitle{
+	background:#720000;
+	width:900px;
+	height:37px;
+	margin:0 auto;
+}
+.showBaomingTitle p{
+	font-size:16px;
+	font-family:"微博";
+	color:#fff;
+	font-weight:700;
+}
+.realtitle{
+	float:left;
+	padding:7px 0 0 15px;
+}
+.wholenum{
+	float:right;
+	padding:7px 15px 0 0;
+}
+.baomingList{
+	background:#fff;
+	width:900px;
+	height:400px;
+	margin:0 auto;
+}
+/*baomingShow end*/
+
 
 
 
