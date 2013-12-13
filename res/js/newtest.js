@@ -49,3 +49,9 @@ function selectPrice(price){//0:10W以下; 1：10W-20W; 2:20W-40W; 3:40W-60W; 4:
 		sonPage.window.onload();
 	}
 }
+
+//关闭报名弹框
+function closeSignUpBox(){
+	var signUpBox = document.getElementById("signUpBox");
+	signUpBox.style.display = "none"
+}

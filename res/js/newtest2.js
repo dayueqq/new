@@ -11,7 +11,9 @@
 
 
 //点击报名弹出对话框
-function signUpBox(){
+function signUpBox(brandId,secondBrandId,series,province,city){//参数为carID，地区ID
 	var signUpBox = window.parent.document.getElementById("signUpBox");
 	signUpBox.style.display = "block";
+	window.parent.sureBrand(brandId,secondBrandId,series);
+	window.parent.sureArea(province,city);
 }
