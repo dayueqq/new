@@ -176,6 +176,7 @@ body {
 	width:100%;
 	_position:absolute;
 	_top:expression(documentElement.scrollTop+10 + "px")
+	z-index:777;
 }
 .price-nav-ul
 {

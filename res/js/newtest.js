@@ -1,5 +1,5 @@
 // JavaScript Document
-//å›¾ç‰‡é€æ˜è’™ç‰ˆ
+//Í¼Æ¬Í¸Ã÷ÃÉ°æ
  function openVessel(strId)
     {
         document.getElementById(strId).style.display = "block";
@@ -9,7 +9,7 @@
         document.getElementById(strId).style.display = "none";
     }
 	
-//åˆ‡æ¢åœ°åŒº
+//ÇĞ»»µØÇø
 function changeAera(num){
 	var iframe = document.getElementById("carMainBox");
 	if(num == 1){
@@ -28,30 +28,64 @@ function changeAera(num){
 }
 
 
-//ä»·æ ¼ç­›é€‰
-function selectPrice(price){//0:10Wä»¥ä¸‹; 1ï¼š10W-20W; 2:20W-40W; 3:40W-60W; 4:60W-80W; 5:80W-100w; 6:100Wä»¥ä¸Š
+//¼Û¸ñÉ¸Ñ¡
+function selectPrice(price){//1:10WÒÔÏÂ; 2£º10W-20W; 3:20W-40W; 4:40W-60W; 5:60W-80W; 6:80W-100w; 7:100WÒÔÉÏ
 	var sonPage = document.getElementById("carMainBox").contentWindow;
 	var carBoxAll = sonPage.document.getElementsByClassName("car-list-card-middle");
 	var carBoxShow = sonPage.document.getElementsByClassName(price);
-	
-	if(price == 0){
-		for(var i=0; i<carBoxAll.length; i++){
-			carBoxAll[i].style.display = "block";
-		}
-		sonPage.window.onload();
-	}else{
-		for(var i=0; i<carBoxAll.length; i++){
-			carBoxAll[i].style.display = "none";
-		}
-		for(var i=0; i<carBoxShow.length; i++){
-			carBoxShow[i].style.display = "block";
-		}
-		sonPage.window.onload();
+	if(carBoxShow.length==0 && price != 0){
+		alert("ÄúËùÉ¸Ñ¡µÄ¼ÛÎ»ÔİÎŞ»î¶¯³µĞÍ£¡");
 	}
-}
+	else{
+		if(price == 0){
+//				flashBoxUp();
+//				for(var i=0; i<carBoxAll.length; i++){
+//	                //$(carBoxAll[i]).fadeOut(399);
+//					carBoxAll[i].style.display = "none";
+//				}
+				for(var i=0; i<carBoxAll.length; i++){
+					//$(carBoxAll[i]).fadeIn("normal");
+					carBoxAll[i].style.display = "block";
+				}
+				sonPage.window.onload();
+		}
+		else{
+				for(var i=0; i<carBoxAll.length; i++){
+	                //$(carBoxAll[i]).fadeOut(399);
+					carBoxAll[i].style.display = "none";
+				}
+				flashBoxUp();
+				for(var i=0; i<carBoxShow.length; i++){
+	                //$(carBoxShow[i]).fadeIn(399);
+					carBoxShow[i].style.display = "block";
+				}
+				//setTimeout(function(){sonPage.window.onload();},500);
+				sonPage.window.onload();	 
+		}
+	}
+   }
 
-//å…³é—­æŠ¥åå¼¹æ¡†
+//¹Ø±Õ±¨Ãûµ¯¿ò
 function closeSignUpBox(){
 	var signUpBox = document.getElementById("signUpBox");
-	signUpBox.style.display = "none"
+	$(signUpBox).fadeOut("fast"); 
 }
+
+//ÉÁË¸º¯Êı1
+function flashBoxUp(){
+	var flashElement = document.getElementById("flashBox");
+	$(flashElement).fadeIn("slow");
+	$(flashElement).fadeOut("slow");
+}
+
+
+
+
+
+
+
+
+
+
+
+
