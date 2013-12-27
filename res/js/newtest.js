@@ -30,18 +30,62 @@
 //ÇÐ»»µØÇø
 function changeAera(num){
 	var iframe = document.getElementById("carMainBox");
+	var div = document.getElementById("right-ul-box");
+	var liSelected = document.getElementsByClassName("selected");
+	if(liSelected.length != 0 )
+	liSelected[0].className = 'unselected';
 	if(num == 1){
-		iframe.src = "dongguan.html";
-		//var carBrand = document.getElementById("left-ul");
-		//var linkTarget = carBrand.getElementsByTagName("a");
-		//for(var i=0 ; i < linkTarget.length; i++)
-		 	//linkTarget[i].href="dongguan.html#"+i;
+		iframe.src = "http://gd.qq.com/zt2013/gyh_dongguan/index.htm";
+		var li = document.getElementById("dongguan");
+		li.className = 'selected';
+		var carPrice = document.getElementById("price-ul");
+		var linkTarget = carPrice.getElementsByTagName("a");
+		for(var i=0 ; i < linkTarget.length; i++){
+		linkTarget[i].href="http://gd.qq.com/zt2013/gyh_dongguan/index.htm#"+i;
+		}
+		$.scrollTo(800, 300);
+		
 	}else if(num == 2){
-		iframe.src = "huizhou.html";
-		//var carBrand = document.getElementById("left-ul");
-		//var linkTarget = carBrand.getElementsByTagName("a");
-		//for(var i=0 ; i < linkTarget.length; i++)
-		 //	linkTarget[i].href="huizhou.html#"+i;
+		iframe.src = "http://gd.qq.com/zt2013/tgyh/index.htm";
+		var li = document.getElementById("guangzhou");
+		li.className = 'selected';
+		var carPrice = document.getElementById("price-ul");
+		var linkTarget = carPrice.getElementsByTagName("a");
+		for(var i=0 ; i < linkTarget.length; i++){
+		linkTarget[i].href="http://gd.qq.com/zt2013/tgyh/index.htm#"+i;
+		}
+		$.scrollTo(800, 300);
+		
+	}else if(num == 3){
+		iframe.src = "http://gd.qq.com/zt2013/gyh_huizhou/index.htm";
+		var li = document.getElementById("huizhou");
+		li.className = 'selected';
+		var carPrice = document.getElementById("price-ul");
+		var linkTarget = carPrice.getElementsByTagName("a");
+		for(var i=0 ; i < linkTarget.length; i++){
+		linkTarget[i].href="http://gd.qq.com/zt2013/gyh_huizhou/index.htm#"+i;
+		}
+		$.scrollTo(800, 300);
+	}else if(num == 4){
+		alert("¾´ÇëÆÚ´ý£¡");
+	}else if(num == 5){
+		alert("¾´ÇëÆÚ´ý£¡");
+	}else if(num == 6){
+	   iframe.src = "http://gd.qq.com/zt2013/gyh_foshan/index.htm";
+		var li = document.getElementById("foshan");
+		li.className = 'selected';
+		var carPrice = document.getElementById("price-ul");
+		var linkTarget = carPrice.getElementsByTagName("a");
+		for(var i=0 ; i < linkTarget.length; i++){
+		linkTarget[i].href="http://gd.qq.com/zt2013/gyh_foshan/index.htm#"+i;
+		}
+		$.scrollTo(800, 300);
+	}else if(num == 7){
+		alert("¾´ÇëÆÚ´ý£¡");
+	}else if(num == 8){
+		alert("¾´ÇëÆÚ´ý£¡");
+	}else if(num == 9){
+		alert("¾´ÇëÆÚ´ý£¡");
 	}
 }
 
@@ -65,7 +109,8 @@ function selectPrice(price){//1:10WÒÔÏÂ; 2£º10W-20W; 3:20W-40W; 4:40W-60W; 5:60W
 					//$(carBoxAll[i]).fadeIn("normal");
 					carBoxAll[i].style.display = "block";
 				}
-				sonPage.window.onload();
+				sonPage.window.onload(1);
+				$.scrollTo(800, 300);
 		}
 		else{
 				for(var i=0; i<carBoxAll.length; i++){
@@ -78,7 +123,8 @@ function selectPrice(price){//1:10WÒÔÏÂ; 2£º10W-20W; 3:20W-40W; 4:40W-60W; 5:60W
 					carBoxShow[i].style.display = "block";
 				}
 				//setTimeout(function(){sonPage.window.onload();},500);
-				sonPage.window.onload();	 
+				sonPage.window.onload(1);	 
+				$.scrollTo(800, 300);
 		}
 	}
    }
@@ -96,7 +142,11 @@ function flashBoxUp(){
 	$(flashElement).fadeOut("slow");
 }
 
-
+//»¶Ó­º¯Êý
+function welcome(){
+	alert("¸Ï½ô±¨ÃûÇÀ¹ºÄúµÄÐÄÒÇ×ù¼Ý°É£¡´óÀñµÈ×ÅÄú£¡");
+	$.scrollTo(800, 300);
+}
 
 
 

@@ -1,0 +1,1786 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb18030" />
+<title>无标题文档</title>
+<link rel="stylesheet" href="../res/css/newtest.css">
+
+
+<!--更新外框高度window.load代码-->
+<script type="text/javascript">
+window.onload=function(num){  
+	try{
+		 var s = parent.document.getElementById('iframeHeight')||null;
+	}catch(e){}
+	var realHeight 
+	s?s.style.height = document.body.offsetHeight +50+'px':'';
+	if(num==1){
+	}else{
+		var li = document.getElementsByTagName("li");
+		for(var i=0;i<li.length;i++){
+			li[i].style.display = "block";
+		}
+	}
+} 
+
+</script>
+<script src="http://code.jquery.com/jquery-1.5.2.min.js" language="javascript"></script>
+<script src="../res/js/newtest2.js" type="text/javascript" ></script>
+</head>
+
+<body>
+<!--for record opertate number now total is 13-->
+    <div id="dongguan" class="main">
+    	<!--contant-list begin-->
+    	<div class="contant-list">
+        	<!--car-list begin-->63
+            
+            <!--audi-->
+            <ul class="car-list">
+            	<li class="saudi car-list-card-middle 3 4"   onmouseout="closeVessel('operate1');" onmouseover="openVessel('operate1');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate1" class="operate" onmouseout="closeVessel('operate1');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>百元油卡</p>
+                          <p>送奥迪U盘</p>
+                          <p>送QQ公仔</p>       
+                          <div class="innerCase1"></div>
+	                      <a href="javascript:void(0)" class="goShopping" id="goShopping" onclick="signUpBox(3,137,323,6,79)">立即抢购</a>
+  	                    </div>	   
+                    </div>
+                    	<img class="car-list-card-img" src="../res/images/audi/audi-Q3.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【奥迪Q3】</span>全系车型</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">28.5万-42.88万</s>
+                        <p class="car-real-price"><span>￥</span>26.5万-40.88万</p>
+                        </div>
+                    </div>
+                </li>  
+                <li class="saudi car-list-card-middle 3 4"   onmouseout="closeVessel('operate2');" onmouseover="openVessel('operate2');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate2" class="operate" onmouseout="closeVessel('operate2');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>百元油卡</p>
+                          <p>送奥迪U盘</p>
+                          <p>送QQ公仔</p>       
+                          <div class="innerCase1"></div>
+	                      <a href="javascript:void(0)" class="goShopping" id="goShopping"   onclick="signUpBox(3,137,324,6,79)">立即抢购</a>
+  	                    </div>	   
+                    </div>
+                    	<img class="car-list-card-img" src="../res/images/audi/audi-Q5.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【奥迪Q5】</span>全系车型</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">35.85万-56.77万</s>
+                        <p class="car-real-price"><span>￥</span>32.85万-53.77万</p>
+                        </div>
+                    </div>
+                </li> 
+                <li class="saudi car-list-card-middle 6 7"   onmouseout="closeVessel('operate3');" onmouseover="openVessel('operate3');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate3" class="operate" onmouseout="closeVessel('operate3');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>千元油卡</p>
+                          <p>送奥迪U盘</p>
+                          <p>送QQ公仔</p>       
+                          <div class="innerCase1"></div>
+	                      <a href="javascript:void(0)" class="goShopping" id="goShopping"   onclick="signUpBox(3,138,334,6,79)">立即抢购</a>
+  	                    </div>	   
+                    </div>
+                    	<img class="car-list-card-img" src="../res/images/audi/audi-Q7.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【奥迪Q7】</span>全系车型</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">82.1万-257.8万</s>
+                        <p class="car-real-price"><span>￥</span>62.1万-237.8万</p>
+                        </div>
+                    </div>
+                </li>   
+                <li class="saudi car-list-card-middle 3 4"   onmouseout="closeVessel('operate4');" onmouseover="openVessel('operate4');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate4" class="operate" onmouseout="closeVessel('operate4');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>百元油卡</p>
+                          <p>送奥迪U盘</p>
+                          <p>送QQ公仔</p>       
+                          <div class="innerCase1"></div>
+	                      <a href="javascript:void(0)" class="goShopping" id="goShopping"   onclick="signUpBox(3,137,321,6,79)">立即抢购</a>
+  	                    </div>	   
+                    </div>
+                    	<img class="car-list-card-img" src="../res/images/audi/audi-A4L.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【奥迪A4L】</span>全系车型</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">27.28万-57.81万</s>
+                        <p class="car-real-price"><span>￥</span>24.28万-54.81万</p>
+                        </div>
+                    </div>
+                </li> 
+                <li class="saudi car-list-card-middle 3 4 5"   onmouseout="closeVessel('operate5');" onmouseover="openVessel('operate5');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate5" class="operate" onmouseout="closeVessel('operate5');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>百元油卡</p>
+                          <p>送奥迪U盘</p>
+                          <p>送QQ公仔</p>       
+                          <div class="innerCase1"></div>
+	                      <a href="javascript:void(0)" class="goShopping" id="goShopping"   onclick="signUpBox(3,137,322,6,79)">立即抢购</a>
+  	                    </div>	   
+                    </div>
+                    	<img class="car-list-card-img" src="../res/images/audi/audi-A6L.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【奥迪A6L】</span>全系车型</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">38.3万-74.26万</s>
+                        <p class="car-real-price"><span>￥</span>33.3万-69.26万</p>
+                        </div>
+                    </div>
+                </li> 
+                <li class="saudi car-list-card-middle 6 7"   onmouseout="closeVessel('operate6');" onmouseover="openVessel('operate6');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate6" class="operate" onmouseout="closeVessel('operate6');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>千元油卡</p>
+                          <p>送奥迪U盘</p>
+                          <p>送QQ公仔</p>       
+                          <div class="innerCase1"></div>
+	                      <a href="javascript:void(0)" class="goShopping" id="goShopping"   onclick="signUpBox(3,138,331,6,79)">立即抢购</a>
+  	                    </div>	   
+                    </div>
+                    	<img class="car-list-card-img" src="../res/images/audi/audi-A8L.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【奥迪A8L】</span>全系车型</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">87.1万-264.8万</s>
+                        <p class="car-real-price"><span>￥</span>69.1万-244.8万</p>
+                        </div>
+                    </div>
+                </li> 
+            <!--audi end-->
+            
+            <!--benz-->
+            	<li class="sbenz car-list-card-middle 3 4"   onmouseout="closeVessel('operate7');" onmouseover="openVessel('operate7');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate7" class="operate" onmouseout="closeVessel('operate7');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>最高优惠直达8万</p>
+                          <p>送万元豪礼</p>
+                          <p>&nbsp;</p>       
+                          <div class="innerCase1"></div>
+	                      <a href="javascript:void(0)" class="goShopping" id="goShopping" onclick="signUpBox(11,149,377,6,79)">立即抢购</a>
+  	                    </div>	   
+                    </div>
+                    	<img class="car-list-card-img" src="../res/images/benz/benz-c.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【奔驰C级】</span>全系车型</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">30.8万-46.8万</s>
+                        <p class="car-real-price"><span>￥</span>让大头填上！</p>
+                        </div>
+                    </div>
+                </li> 
+                <li class="sbenz car-list-card-middle 4 5"   onmouseout="closeVessel('operate8');" onmouseover="openVessel('operate8');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate8" class="operate" onmouseout="closeVessel('operate8');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>最高优惠4万</p>
+                          <p>送万元大礼包</p>
+                          <p>&nbsp;</p>       
+                          <div class="innerCase1"></div>
+	                      <a href="javascript:void(0)" class="goShopping" id="goShopping" onclick="signUpBox(11,149,378,6,79)" >立即抢购</a>
+  	                    </div>	   
+                    </div>
+                    	<img class="car-list-card-img" src="../res/images/benz/benz-e.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【奔驰E级】</span>全系车型</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">43.8万-79.8万</s>
+                        <p class="car-real-price"><span>￥</span>让大头填上！</p>
+                        </div>
+                    </div>
+                </li> 
+                <li class="sbenz car-list-card-middle 3 4"   onmouseout="closeVessel('operate9');" onmouseover="openVessel('operate9');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate9" class="operate" onmouseout="closeVessel('operate9');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>最高优惠7万</p>
+                          <p>送万元大礼包</p>
+                          <p>&nbsp;</p>       
+                          <div class="innerCase1"></div>
+	                      <a href="javascript:void(0)" class="goShopping" id="goShopping" onclick="signUpBox(11,149,379,6,79)" >立即抢购</a>
+  	                    </div>	   
+                    </div>
+                    	<img class="car-list-card-img" src="../res/images/benz/benz-glk.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【奔驰GLK级】</span>全系车型</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">39.8万-55.8万</s>
+                        <p class="car-real-price"><span>￥</span>让大头填上！</p>
+                        </div>
+                    </div>
+                </li> 
+            <!--benz end-->
+            
+            <!--BMW-->
+            	<li class="sbmw car-list-card-middle 3 4 5"   onmouseout="closeVessel('operate10');" onmouseover="openVessel('operate10');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate10" class="operate" onmouseout="closeVessel('operate10');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>送万元礼包</p>
+                          <p>送腾讯礼包</p>
+                          <p>&nbsp;</p>       
+                          <div class="innerCase1"></div>
+	                      <a href="javascript:void(0)" class="goShopping" id="goShopping" onclick="signUpBox(6,143,351,6,79)">立即抢购</a>
+  	                    </div>	   
+                    </div>
+                    	<img class="car-list-card-img" src="../res/images/bmw/BMW-3.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【宝马3系】</span>全系车型</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">31.6万-66.9万</s>
+                        <p class="car-real-price"><span>￥</span>30.6万-65.9万</p>
+                        </div>
+                    </div>
+                </li> 
+                <li class="sbmw car-list-card-middle 4 5 6"   onmouseout="closeVessel('operate11');" onmouseover="openVessel('operate11');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate11" class="operate" onmouseout="closeVessel('operate11');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>送万元礼包</p>
+                          <p>送腾讯礼包</p>
+                          <p>&nbsp;</p>       
+                          <div class="innerCase1"></div>
+	                      <a href="javascript:void(0)" class="goShopping" id="goShopping" onclick="signUpBox(6,143,353,6,79)" >立即抢购</a>
+  	                    </div>	   
+                    </div>
+                    	<img class="car-list-card-img" src="../res/images/bmw/BMW-5.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【宝马5系】</span>全系车型</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">45.5万-93.4万</s>
+                        <p class="car-real-price"><span>￥</span>44.5万-92.4万</p>
+                        </div>
+                    </div>
+                </li> 
+                <li class="sbmw car-list-card-middle 5 6 7"   onmouseout="closeVessel('operate12');" onmouseover="openVessel('operate12');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate12" class="operate" onmouseout="closeVessel('operate12');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>免购置税、一元包牌</p>
+                          <p>送保险、终身会员</p>
+                          <p>送宝马自行车</p>       
+                          <div class="innerCase1"></div>
+	                      <a href="javascript:void(0)" class="goShopping" id="goShopping" onclick="signUpBox(6,143,356,6,79)" >立即抢购</a>
+  	                    </div>	   
+                    </div>
+                    	<img class="car-list-card-img" src="../res/images/bmw/BMW-7.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【宝马7系】</span>全系车型</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">89.8万-319.8万</s>
+                        <p class="car-real-price"><span>￥</span>69.8万-299.8万</p>
+                        </div>
+                    </div>
+                </li> 
+                <li class="sbmw car-list-card-middle 4 5"   onmouseout="closeVessel('operate13');" onmouseover="openVessel('operate13');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate13" class="operate" onmouseout="closeVessel('operate13');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>免50%购置税</p>
+                          <p>送保险</p>
+                          <p>&nbsp;</p>       
+                          <div class="innerCase1"></div>
+	                      <a href="javascript:void(0)" class="goShopping" id="goShopping" onclick="signUpBox(6,143,357,6,79)" >立即抢购</a>
+  	                    </div>	   
+                    </div>
+                    	<img class="car-list-card-img" src="../res/images/bmw/BMW-X3.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【宝马X3】</span>全系车型</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">48.7万-72.5万</s>
+                        <p class="car-real-price"><span>￥</span>45.7万-69.5万</p>
+                        </div>
+                    </div>
+                </li> 
+                <li class="sbmw car-list-card-middle 5 6 7"   onmouseout="closeVessel('operate14');" onmouseover="openVessel('operate14');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate14" class="operate" onmouseout="closeVessel('operate14');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>免购置税</p>
+                          <p>一元包牌</p>
+                          <p>送保险</p>       
+                          <div class="innerCase1"></div>
+	                      <a href="javascript:void(0)" class="goShopping" id="goShopping" onclick="signUpBox(6,143,358,6,79)" >立即抢购</a>
+  	                    </div>	   
+                    </div>
+                    	<img class="car-list-card-img" src="../res/images/bmw/BMW-X5.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【宝马X5】</span>全系车型</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">70.8万-195.3万</s>
+                        <p class="car-real-price"><span>￥</span>62.8万-187.3万</p>
+                        </div>
+                    </div>
+                </li> 
+                <li class="sbmw car-list-card-middle 6 7"   onmouseout="closeVessel('operate15');" onmouseover="openVessel('operate15');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate15" class="operate" onmouseout="closeVessel('operate15');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>免购置税</p>
+                          <p>一元包牌</p>
+                          <p>送保险</p>          
+                          <div class="innerCase1"></div>
+	                      <a href="javascript:void(0)" class="goShopping" id="goShopping" onclick="signUpBox(6,143,359,6,79)" >立即抢购</a>
+  	                    </div>	   
+                    </div>
+                    	<img class="car-list-card-img" src="../res/images/bmw/BMW-X6.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【宝马X6】</span>全系车型</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">86.8万-216.8万</s>
+                        <p class="car-real-price"><span>￥</span>76.8万-206.8万</p>
+                        </div>
+                    </div>
+                </li> 
+            <!--BMW end-->
+            
+            <!--chevy-->
+            	<li class="schevy car-list-card-middle 2"   onmouseout="closeVessel('operate16');" onmouseover="openVessel('operate16');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate16" class="operate" onmouseout="closeVessel('operate16');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>最低月供仅577元</p>
+                          <p>最高优惠2.1万</p>
+                          <p>&nbsp;</p>       
+                          <div class="innerCase1"></div>
+	                      <a href="javascript:void(0)" class="goShopping" id="goShopping" onclick="signUpBox(127,301,956,6,79)">立即抢购</a>
+  	                    </div>	   
+                    </div>
+                    	<img class="car-list-card-img" src="../res/images/chevy/chevy-keluzi.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【科鲁慈】</span>全系车型</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">10.89万-15.99万</s>
+                        <p class="car-real-price"><span>￥</span>让大头填上！</p>
+                        </div>
+                    </div>
+                </li> 
+                <li class="schevy car-list-card-middle 2 3"   onmouseout="closeVessel('operate17');" onmouseover="openVessel('operate17');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate17" class="operate" onmouseout="closeVessel('operate17');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>最高优惠达2.6万</p>
+                          <p>购车送腾讯汽车四重大礼</p>
+                          <p>&nbsp;</p>       
+                          <div class="innerCase1"></div>
+	                      <a href="javascript:void(0)" class="goShopping" id="goShopping" onclick="signUpBox(127,301,958,6,79)" >立即抢购</a>
+  	                    </div>	   
+                    </div>
+                    	<img class="car-list-card-img" src="../res/images/chevy/chevy-mairuibao.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【迈锐宝】</span>全系车型</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">16.29万-23.29万</s>
+                        <p class="car-real-price"><span>￥</span>让大头填上！</p>
+                        </div>
+                    </div>
+                </li> 
+                <li class="schevy car-list-card-middle 1"   onmouseout="closeVessel('operate18');" onmouseover="openVessel('operate18');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate18" class="operate" onmouseout="closeVessel('operate18');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>全系现金优惠4000元</p>
+                          <p>购车送腾讯汽车四重大礼</p>
+                          <p>&nbsp;</p>       
+                          <div class="innerCase1"></div>
+	                      <a href="javascript:void(0)" class="goShopping" id="goShopping" onclick="signUpBox(127,301,959,6,79)" >立即抢购</a>
+  	                    </div>	   
+                    </div>
+                    	<img class="car-list-card-img" src="../res/images/chevy/chevy-saiou.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【塞欧】</span>全系车型</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">5.68万-7.93万</s>
+                        <p class="car-real-price"><span>￥</span>让大头填上！</p>
+                        </div>
+                    </div>
+                </li> 
+            <!--chevy end-->
+            
+            <!--honda-->
+                <li class="shonda car-list-card-middle 3 4" onmouseout="closeVessel('operate19');" onmouseover="openVessel('operate19');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate19" class="operate" onmouseout="closeVessel('operate19');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>送防爆膜，地毯</p>
+                          <p>送挡泥板，方向盘锁</p>
+                          <p>送头枕，香水</p>
+                          <div class="innerCase1"></div>
+	                      <a href="javascript:void(0)" class="goShopping" id="goShopping" onclick="signUpBox(13,155,415,6,79)">立即抢购</a>
+  	                    </div>	   
+                    </div>
+                    	<img class="car-list-card-img" src="../res/images/honda/honda-gesitu.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【歌诗图】</span>全系车型</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">25.98万-42.88万</s>
+                        <p class="car-real-price"><span>￥</span>23.98万-40.88万</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="shonda car-list-card-middle 2"   onmouseout="closeVessel('operate20');" onmouseover="openVessel('operate20');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate20" class="operate" onmouseout="closeVessel('operate20');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>送腾讯礼包</p>
+                          <p>&nbsp;</p>
+                          <p>&nbsp;</p>
+                          <div class="innerCase1"></div>
+	                      <a href="javascript:void(0)" class="goShopping" id="goShopping" onclick="signUpBox(13,155,416,6,79)">立即抢购</a>
+  	                    </div>	   
+                    </div>
+                    	<img class="car-list-card-img" src="../res/images/honda/honda-lingpai.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【凌派】</span>全系车型</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">11.48万-14.98万</s>
+                        <p class="car-real-price"><span>￥</span>11.48万-14.98万</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="shonda car-list-card-middle 1"    onmouseout="closeVessel('operate21');" onmouseover="openVessel('operate21');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate21" class="operate" onmouseout="closeVessel('operate21');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>送防爆膜，地毯</p>
+                          <p>送挡泥板，方向盘锁</p>
+                          <p>送头枕，香水</p>
+                          <div class="innerCase1"></div>
+	                      <a href="javascript:void(0)" class="goShopping" id="goShopping" onclick="signUpBox(13,155,730,6,79)">立即抢购</a>
+  	                    </div>	   
+                    </div>
+                    	<img class="car-list-card-img" src="../res/images/honda/honda-linian.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【理念】</span>全系车型</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">7.88万-9.98万</s>
+                        <p class="car-real-price"><span>￥</span>7.88万-9.08万</p>
+                        </div>
+                    </div>
+                </li>           
+            <!--honda end-->
+            
+            <!--toyota-->
+            <li class="stoyota car-list-card-middle 1 2"    onmouseout="closeVessel('operate22');" onmouseover="openVessel('operate22');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate22" class="operate" onmouseout="closeVessel('operate22');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>送腾讯礼包</p>
+                          <p>&nbsp;</p>
+                          <p>&nbsp;</p>
+                          <div class="innerCase1"></div>
+	                      <a href="javascript:void(0)" class="goShopping" id="goShopping" onclick="signUpBox(1331,188,560,6,79)" >立即抢购</a>
+  	                    </div>	   
+                    </div>
+                    	<img class="car-list-card-img" src="../res/images/toyota/toyota-huaguan.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【花冠】</span>全系车型</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">9.08万-11.38万</s>
+                        <p class="car-real-price"><span>￥</span>7.28万-9.58万</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="stoyota car-list-card-middle 2"   onmouseout="closeVessel('operate23');" onmouseover="openVessel('operate23');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate23" class="operate" onmouseout="closeVessel('operate23');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>送腾讯礼包</p>
+                          <p>&nbsp;</p>
+                          <p>&nbsp;</p>
+                          <div class="innerCase1"></div>
+	                      <a href="javascript:void(0)" class="goShopping" id="goShopping" onclick="signUpBox(1331,188,562,6,79)" >立即抢购</a>
+  	                    </div>	   
+                    </div>
+                    	<img class="car-list-card-img" src="../res/images/toyota/toyota-kaluola.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【卡罗拉】</span>全系车型</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">12.38万-15.18万</s>
+                        <p class="car-real-price"><span>￥</span>最低10.88万起</p>
+                        </div>
+                    </div>
+                </li> 
+                <li class="stoyota car-list-card-middle 3"   onmouseout="closeVessel('operate24');" onmouseover="openVessel('operate24');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate24" class="operate" onmouseout="closeVessel('operate24');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>送腾讯礼包</p>
+                          <p>&nbsp;</p>
+                          <p>&nbsp;</p>      
+                          <div class="innerCase1"></div>
+	                      <a href="javascript:void(0)" class="goShopping" id="goShopping" onclick="signUpBox(1331,188,567,6,79)" >立即抢购</a>
+  	                    </div>	   
+                    </div> 
+                    	<img class="car-list-card-img" src="../res/images/toyota/toyota-ruizhi.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【锐志】</span>全系车型</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">20.98万-31.48万</s>
+                        <p class="car-real-price"><span>￥</span>20.38万-30.08万</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="stoyota car-list-card-middle 3 4"   onmouseout="closeVessel('operate25');" onmouseover="openVessel('operate25');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate25" class="operate" onmouseout="closeVessel('operate25');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>送腾讯礼包</p>
+                          <p>&nbsp;</p>
+                          <p>&nbsp;</p>  
+                          <div class="innerCase1"></div>
+	                      <a href="javascript:void(0)" class="goShopping" id="goShopping" onclick="signUpBox(1331,188,561,6,79)" >立即抢购</a>
+  	                    </div>	   
+                    </div> 
+                    	<img class="car-list-card-img" src="../res/images/toyota/toyota-huangguan.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【皇冠】</span>全系车型</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">31.98万-51.98万</s>
+                        <p class="car-real-price"><span>￥</span>24.98万-44.98万</p>
+                        </div>
+                    </div>
+                </li>
+            <!--toyota end-->
+            
+            <!--hyundai-->
+            	<li class="shyundai car-list-card-middle 2 3"   onmouseout="closeVessel('operate26');" onmouseover="openVessel('operate26');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate26" class="operate" onmouseout="closeVessel('operate26');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>最高现金优惠2.8万</p>
+                          <p>享腾讯万元“油”礼</p>
+                          <p>&nbsp;</p>       
+                          <div class="innerCase1"></div>
+	                      <a href="javascript:void(0)" class="goShopping" id="goShopping" onclick="signUpBox(126,299,936,6,79)">立即抢购</a>
+  	                    </div>	   
+                    </div>
+                    	<img class="car-list-card-img" src="../res/images/hyundai/hyundai-ix35.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【ix35】</span>全系车型</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">16.98万-24.28万</s>
+                        <p class="car-real-price"><span>￥</span>让大头填上！</p>
+                        </div>
+                    </div>
+                </li> 
+                <li class="shyundai car-list-card-middle 2"   onmouseout="closeVessel('operate27');" onmouseover="openVessel('operate27');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate27" class="operate" onmouseout="closeVessel('operate27');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>直降8000元优惠</p>
+                          <p>全系车型首付2.4万起</p>
+                          <p>&nbsp;</p>       
+                          <div class="innerCase1"></div>
+	                      <a href="javascript:void(0)" class="goShopping" id="goShopping" onclick="signUpBox(126,299,937,6,79)" >立即抢购</a>
+  	                    </div>	   
+                    </div>
+                    	<img class="car-list-card-img" src="../res/images/hyundai/hyundai-langdong.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【朗动】</span>全系车型</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">10.58万-14.98万</s>
+                        <p class="car-real-price"><span>￥</span>让大头填上！</p>
+                        </div>
+                    </div>
+                </li> 
+                <li class="shyundai car-list-card-middle 1 2"   onmouseout="closeVessel('operate28');" onmouseover="openVessel('operate28');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate28" class="operate" onmouseout="closeVessel('operate28');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>最高现金直降2.2万</p>
+                          <p>享腾讯万元“油”礼</p>
+                          <p>&nbsp;</p>       
+                          <div class="innerCase1"></div>
+	                      <a href="javascript:void(0)" class="goShopping" id="goShopping" onclick="signUpBox(126,299,944,6,79)" >立即抢购</a>
+  	                    </div>	   
+                    </div>
+                    	<img class="car-list-card-img" src="../res/images/hyundai/hyundai-ruidong.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【悦动】</span>全系车型</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">9.98万-14.68万</s>
+                        <p class="car-real-price"><span>￥</span>让大头填上！</p>
+                        </div>
+                    </div>
+                </li> 
+            <!--hyundai end-->
+            
+            <!--volkswagen-->
+            <li class="svolkswagen car-list-card-middle 1 2"    onmouseout="closeVessel('operate29');" onmouseover="openVessel('operate29');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate29" class="operate" onmouseout="closeVessel('operate29');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>全系最高优惠1万</p>
+                          <p>送腾讯礼包</p>
+                          <p>&nbsp;</p>
+                          <div class="innerCase1"></div>
+	                      <a href="javascript:void(0)" class="goShopping" id="goShopping" onclick="signUpBox(26,171,494,6,79)" >立即抢购</a>
+  	                    </div>	   
+                    </div>
+                    	<img class="car-list-card-img" src="../res/images/volkswagen/polo.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【POLO】</span>全系车型</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">8.59万-12.59万</s>
+                        <p class="car-real-price"><span>￥</span>7.59万-11.59万</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="svolkswagen car-list-card-middle 2"   onmouseout="closeVessel('operate30');" onmouseover="openVessel('operate30');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate30" class="operate" onmouseout="closeVessel('operate30');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>首付2.9万起</p>
+                          <p>送千元购车大礼</p>
+                          <p>&nbsp;</p>
+                          <div class="innerCase1"></div>
+	                      <a href="javascript:void(0)" class="goShopping" id="goShopping" onclick="signUpBox(26,171,496,6,79)" >立即抢购</a>
+  	                    </div>	   
+                    </div>
+                    	<img class="car-list-card-img" src="../res/images/volkswagen/langyi.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【朗逸】</span>全系车型</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">10.78万-16.69万</s>
+                        <p class="car-real-price"><span>￥</span>让利利姐填！</p>
+                        </div>
+                    </div>
+                </li> 
+                <li class="svolkswagen car-list-card-middle 1 2"   onmouseout="closeVessel('operate31');" onmouseover="openVessel('operate31');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate31" class="operate" onmouseout="closeVessel('operate31');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>最高优惠4000元</p>
+                          <p>大众专享豪礼</p>
+                          <p>&nbsp;</p>      
+                          <div class="innerCase1"></div>
+	                      <a href="javascript:void(0)" class="goShopping" id="goShopping" onclick="signUpBox(26,171,500,6,79)" >立即抢购</a>
+  	                    </div>	    
+                    </div> 
+                    	<img class="car-list-card-img" src="../res/images/volkswagen/sangtana.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【新桑塔纳】</span>全系车型</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">8.49万-12.38万</s>
+                        <p class="car-real-price"><span>￥</span>8.09万-11.98万</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="svolkswagen car-list-card-middle 2 3"   onmouseout="closeVessel('operate32');" onmouseover="openVessel('operate32');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate32" class="operate" onmouseout="closeVessel('operate32');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>最高优惠8000元</p>
+                          <p>大众专享豪礼</p>
+                          <p>&nbsp;</p>  
+                          <div class="innerCase1"></div>
+	                      <a href="javascript:void(0)" class="goShopping" id="goShopping" onclick="signUpBox(26,171,497,6,79)" >立即抢购</a>
+  	                    </div>	   
+                    </div> 
+                    	<img class="car-list-card-img" src="../res/images/volkswagen/posate.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【帕萨特】</span>全系车型</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">18.38万-32.28万</s>
+                        <p class="car-real-price"><span>￥</span>17.58万-31.48万</p>
+                        </div>
+                    </div>
+                </li>
+            <!--volkswagen end-->
+            
+            <!--buick-->
+            	<li class="sbuick car-list-card-middle 3"   onmouseout="closeVessel('operate33');" onmouseover="openVessel('operate33');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate33" class="operate" onmouseout="closeVessel('operate33');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>现金优惠4万</p>
+                          <p>贷款0首付，0手续费</p>
+                          <p>&nbsp;</p>       
+                          <div class="innerCase1"></div>
+	                      <a href="javascript:void(0)" class="goShopping" id="goShopping" onclick="signUpBox(16,160,449,6,79)">立即抢购</a>
+  	                    </div>	   
+                    </div>
+                    	<img class="car-list-card-img" src="../res/images/buick/buick-junyue.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【君越】</span>全系车型</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">23.59万-32.29万</s>
+                        <p class="car-real-price"><span>￥</span>19.59万-28.29万</p>
+                        </div>
+                    </div>
+                </li> 
+                <li class="sbuick car-list-card-middle 1 2"   onmouseout="closeVessel('operate34');" onmouseover="openVessel('operate34');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate34" class="operate" onmouseout="closeVessel('operate34');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>现金优惠1.8万</p>
+                          <p>&nbsp;</p> 
+                          <p>&nbsp;</p>       
+                          <div class="innerCase1"></div>
+	                      <a href="javascript:void(0)" class="goShopping" id="goShopping" onclick="signUpBox(16,160,450,6,79)" >立即抢购</a>
+  	                    </div>	   
+                    </div>
+                    	<img class="car-list-card-img" src="../res/images/buick/buick-newkaiyue.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【凯越】</span>全系车型</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">9.69万-11.59万</s>
+                        <p class="car-real-price"><span>￥</span>7.89万-9.79万</p>
+                        </div>
+                    </div>
+                </li> 
+                <li class="sbuick car-list-card-middle 2"   onmouseout="closeVessel('operate35');" onmouseover="openVessel('operate35');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate35" class="operate" onmouseout="closeVessel('operate35');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>让利利姐填！</p>
+                          <p>让利利姐填！</p>
+                          <p>&nbsp;</p>       
+                          <div class="innerCase1"></div>
+	                      <a href="javascript:void(0)" class="goShopping" id="goShopping" onclick="signUpBox(16,160,452,6,79)" >立即抢购</a>
+  	                    </div>	   
+                    </div>
+                    	<img class="car-list-card-img" src="../res/images/buick/buick-GT.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【英朗GT】</span>全系车型</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">让利利姐填！</s>
+                        <p class="car-real-price"><span>￥</span>让利利姐填！</p>
+                        </div>
+                    </div>
+                </li> 
+            <!--buick end-->
+            
+            <!--pulchritube-->
+            <li class="spulchritube car-list-card-middle 2 3"    onmouseout="closeVessel('operate77');" onmouseover="openVessel('operate77');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate77" class="operate" onmouseout="closeVessel('operate77');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>5000元大礼包</p>
+                          <p>5年15万公里保修</p>
+                          <p>&nbsp;</p>    
+                          <div class="innerCase1"></div>
+	                      <a href="javascript:void(0)" class="goShopping" id="goShopping" onclick="signUpBox(15,158,435,6,79)" >立即抢购</a>
+  	                    </div>	   
+                    </div>
+                    	<img class="car-list-card-img" src="../res/images/pulchritube/peugeot-3008.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【3008】</span>全系车型</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">15.97万-20.67</s>
+                        <p class="car-real-price"><span>￥</span>15.57万-20.07万</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="spulchritube car-list-card-middle 1 2"   onmouseout="closeVessel('operate78');" onmouseover="openVessel('operate78');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate78" class="operate" onmouseout="closeVessel('operate78');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>5000元大礼包</p>
+                          <p>5年15万公里保修</p>
+                          <p>&nbsp;</p> 
+                          <div class="innerCase1"></div>
+	                      <a href="javascript:void(0)" class="goShopping" id="goShopping" onclick="signUpBox(15,158,1149,6,79)" >立即抢购</a>
+  	                    </div>	   
+                    </div>
+                    	<img class="car-list-card-img" src="../res/images/pulchritube/peugeot-301.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【301】</span>全系车型</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">8.47万-11.67万</s>
+                        <p class="car-real-price"><span>￥</span>8.07万-11.27万</p>
+                        </div>
+                    </div>
+                </li> 
+                <li class="spulchritube car-list-card-middle 1"   onmouseout="closeVessel('operate79');" onmouseover="openVessel('operate79');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate79" class="operate" onmouseout="closeVessel('operate79');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>5000元大礼包</p>
+                          <p>5年15万公里保修</p>   
+                          <p>&nbsp;</p>    
+                          <div class="innerCase1"></div>
+	                      <a href="javascript:void(0)" class="goShopping" id="goShopping" onclick="signUpBox(15,158,436,6,79)" >立即抢购</a>
+  	                    </div>	   
+                    </div> 
+                    	<img class="car-list-card-img" src="../res/images/pulchritube/peugeot-307.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【307】</span>全系车型</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">7.98万-9.88万</s>
+                        <p class="car-real-price"><span>￥</span>7.48万-9.38万</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="spulchritube car-list-card-middle 2"   onmouseout="closeVessel('operate80');" onmouseover="openVessel('operate80');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate80" class="operate" onmouseout="closeVessel('operate80');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>5000元大礼包</p>
+                          <p>5年15万公里保修</p>    
+                          <p>&nbsp;</p>    
+                          <div class="innerCase1"></div>
+	                      <a href="javascript:void(0)" class="goShopping" id="goShopping" onclick="signUpBox(15,158,437,6,79)" >立即抢购</a>
+  	                    </div>	   
+                    </div> 
+                    	<img class="car-list-card-img" src="../res/images/pulchritube/peugeot-308.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【308】</span>全系车型</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">10.89万-15.49万</s>
+                        <p class="car-real-price"><span>￥</span>9.89万-13.89万</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="spulchritube car-list-card-middle 2"   onmouseout="closeVessel('operate81');" onmouseover="openVessel('operate81');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate81" class="operate" onmouseout="closeVessel('operate81');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>5000元大礼包</p>
+                          <p>5年15万公里保修</p>    
+                          <p>&nbsp;</p>    
+                          <div class="innerCase1"></div>
+	                      <a href="javascript:void(0)" class="goShopping" id="goShopping" onclick="signUpBox(15,158,438,6,79)" >立即抢购</a>
+  	                    </div>	   
+                    </div> 
+                    	<img class="car-list-card-img" src="../res/images/pulchritube/peugeot-408.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【408】</span>全系车型</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">12.69万-16.46万</s>
+                        <p class="car-real-price"><span>￥</span>11.39万-14.96万</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="spulchritube car-list-card-middle 2 3"   onmouseout="closeVessel('operate82');" onmouseover="openVessel('operate82');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate82" class="operate" onmouseout="closeVessel('operate82');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>5000元大礼包</p>
+                          <p>5年15万公里保修</p>   
+                          <p>&nbsp;</p>    
+                          <div class="innerCase1"></div>
+	                      <a href="javascript:void(0)" class="goShopping" id="goShopping" onclick="signUpBox(15,158,439,6,79)" >立即抢购</a>
+  	                    </div>	   
+                    </div> 
+                    	<img class="car-list-card-img" src="../res/images/pulchritube/peugeot-508.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【508】</span>全系车型</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">18.17万-22.97万</s>
+                        <p class="car-real-price"><span>￥</span>16.57万-19.97万</p>
+                        </div>
+                    </div>
+                </li>
+            <!--pulchritube end-->
+            
+            <!--citroen-->
+            <li class="scitroen car-list-card-middle 2"    onmouseout="closeVessel('operate36');" onmouseover="openVessel('operate36');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate36" class="operate" onmouseout="closeVessel('operate36');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>最高优惠1.5万</p>
+                          <p>送腾讯礼包</p>
+                          <p>&nbsp;</p>
+                          <div class="innerCase1"></div>
+	                      <a href="javascript:void(0)" class="goShopping" id="goShopping" onclick="signUpBox(128,303,966,6,79)" >立即抢购</a>
+  	                    </div>	   
+                    </div>
+                    	<img class="car-list-card-img" src="../res/images/citroen/C4L.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【C4L】</span>全系车型</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">13.59万-17.19万</s>
+                        <p class="car-real-price"><span>￥</span>12.09万-15.69万</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="scitroen car-list-card-middle 2 3"   onmouseout="closeVessel('operate37');" onmouseover="openVessel('operate37');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate37" class="operate" onmouseout="closeVessel('operate37');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>置换享3万优惠</p>
+                          <p>送腾讯礼包</p>
+                          <p>&nbsp;</p>
+                          <div class="innerCase1"></div>
+	                      <a href="javascript:void(0)" class="goShopping" id="goShopping" onclick="signUpBox(128,303,967,6,79)" >立即抢购</a>
+  	                    </div>	   
+                    </div>
+                    	<img class="car-list-card-img" src="../res/images/citroen/c5.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【C5】</span>全系车型</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">17.69万-29.89万</s>
+                        <p class="car-real-price"><span>￥</span>让利利姐填！</p>
+                        </div>
+                    </div>
+                </li> 
+                <li class="scitroen car-list-card-middle 1"   onmouseout="closeVessel('operate38');" onmouseover="openVessel('operate38');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate38" class="operate" onmouseout="closeVessel('operate38');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>到店即有机会抽取2000元代金券</p>
+                          <p>送腾讯礼包</p>
+                          <p>&nbsp;</p>      
+                          <div class="innerCase1"></div>
+	                      <a href="javascript:void(0)" class="goShopping" id="goShopping" onclick="signUpBox(128,303,965,6,79)" >立即抢购</a>
+  	                    </div>	    
+                    </div> 
+                    	<img class="car-list-card-img" src="../res/images/citroen/c2.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【C2】</span>全系车型</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">7.18万-9.28万</s>
+                        <p class="car-real-price"><span>￥</span>让利利姐填！</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="scitroen car-list-card-middle 1 2"   onmouseout="closeVessel('operate39');" onmouseover="openVessel('operate39');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate39" class="operate" onmouseout="closeVessel('operate39');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>优惠2万</p>
+                          <p>送腾讯礼包</p>
+                          <p>&nbsp;</p>  
+                          <div class="innerCase1"></div>
+	                      <a href="javascript:void(0)" class="goShopping" id="goShopping" onclick="signUpBox(128,303,964,6,79)" >立即抢购</a>
+  	                    </div>	   
+                    </div> 
+                    	<img class="car-list-card-img" src="../res/images/citroen/shijia.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【世嘉】</span>全系车型</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">8.38万-11.88万</s>
+                        <p class="car-real-price"><span>￥</span>让利利姐填！</p>
+                        </div>
+                    </div>
+                </li>
+            <!--citroen end-->
+            
+             <!--nissan-->
+            <li class="snissan car-list-card-middle 2 3"    onmouseout="closeVessel('operate40');" onmouseover="openVessel('operate40');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate40" class="operate" onmouseout="closeVessel('operate40');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>优惠15000元</p>
+                          <p>送导航</p>
+                          <p>0首付、0利率、0月供</p>
+                          <div class="innerCase1"></div>
+	                      <a href="javascript:void(0)" class="goShopping" id="goShopping" onclick="signUpBox(1333,266,854,6,79)" >立即抢购</a>
+  	                    </div>	   
+                    </div>
+                    	<img class="car-list-card-img" src="../res/images/nissan/nissan-xiaoke.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【逍客】</span>全系车型</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">13.98万-21.98万</s>
+                        <p class="car-real-price"><span>￥</span>12.48万-20.48万</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="snissan car-list-card-middle 3"   onmouseout="closeVessel('operate41');" onmouseover="openVessel('operate41');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate41" class="operate" onmouseout="closeVessel('operate41');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>优惠10000元</p>
+                          <p>送导航</p>
+                          <p>0首付、0利率、0月供</p>
+                          <div class="innerCase1"></div>
+	                      <a href="javascript:void(0)" class="goShopping" id="goShopping" onclick="signUpBox(1333,266,851,6,79)" >立即抢购</a>
+  	                    </div>	   
+                    </div>
+                    	<img class="car-list-card-img" src="../res/images/nissan/nissan-qijun.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【奇骏】</span>全系车型</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">20.78万-26.98万</s>
+                        <p class="car-real-price"><span>￥</span>19.78万-25.98万</p>
+                        </div>
+                    </div>
+                </li> 
+                <li class="snissan car-list-card-middle 1 2"   onmouseout="closeVessel('operate42');" onmouseover="openVessel('operate42');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate42" class="operate" onmouseout="closeVessel('operate42');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>优惠7000元</p>
+                          <p>送导航</p>
+                          <p>0首付、0利率、0月供</p>    
+                          <div class="innerCase1"></div>
+	                      <a href="javascript:void(0)" class="goShopping" id="goShopping" onclick="signUpBox(1333,266,848,6,79)" >立即抢购</a>
+  	                    </div>	   
+                    </div> 
+                    	<img class="car-list-card-img" src="../res/images/nissan/nissan-liwei.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【骊威】</span>全系车型</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">8.58万-11.72万</s>
+                        <p class="car-real-price"><span>￥</span>7.88万-11.02万</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="snissan car-list-card-middle 2"   onmouseout="closeVessel('operate43');" onmouseover="openVessel('operate43');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate43" class="operate" onmouseout="closeVessel('operate43');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>优惠5000元</p>
+                          <p>送导航</p>
+                          <p>0首付、0利率、0月供</p>  
+                          <div class="innerCase1"></div>
+	                      <a href="javascript:void(0)" class="goShopping" id="goShopping" onclick="signUpBox(1333,266,855,6,79)" >立即抢购</a>
+  	                    </div>	   
+                    </div> 
+                    	<img class="car-list-card-img" src="../res/images/nissan/nissan-xuanyi.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【轩逸】</span>全系车型</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">11.9万-12.08万</s>
+                        <p class="car-real-price"><span>￥</span>11.4万-11.58万</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="snissan car-list-card-middle 2"   onmouseout="closeVessel('operate44');" onmouseover="openVessel('operate44');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate44" class="operate" onmouseout="closeVessel('operate44');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>优惠3000元</p>
+                          <p>送导航</p>
+                          <p>0首付、0利率、0月供</p>  
+                          <div class="innerCase1"></div>
+	                      <a href="javascript:void(0)" class="goShopping" id="goShopping" onclick="signUpBox(1333,266,852,6,79)" >立即抢购</a>
+  	                    </div>	   
+                    </div> 
+                    	<img class="car-list-card-img" src="../res/images/nissan/nissan-qida.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【骐达】</span>全系车型</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">10.53万-15.88万</s>
+                        <p class="car-real-price"><span>￥</span>10.23万-15.58万</p>
+                        </div>
+                    </div>
+                </li>
+                 <li class="snissan car-list-card-middle 1 2"   onmouseout="closeVessel('operate45');" onmouseover="openVessel('operate45');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate45" class="operate" onmouseout="closeVessel('operate45');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>优惠2000元</p>
+                          <p>送导航</p>
+                          <p>0首付、0利率、0月供</p>    
+                          <div class="innerCase1"></div>
+	                      <a href="javascript:void(0)" class="goShopping" id="goShopping" onclick="signUpBox(1333,266,856,6,79)" >立即抢购</a>
+  	                    </div>	   
+                    </div> 
+                    	<img class="car-list-card-img" src="../res/images/nissan/nissan-yangguang.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【阳光】</span>全系车型</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">8.28万-11.28万</s>
+                        <p class="car-real-price"><span>￥</span>8.08万-11.08万</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="snissan car-list-card-middle 2 3"   onmouseout="closeVessel('operate46');" onmouseover="openVessel('operate46');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate46" class="operate" onmouseout="closeVessel('operate46');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>送导航</p>
+                          <p>送商业保险</p>
+                          <p>送交强险</p>  
+                          <div class="innerCase1"></div>
+	                      <a href="javascript:void(0)" class="goShopping" id="goShopping" onclick="signUpBox(1333,266,853,6,79)" >立即抢购</a>
+  	                    </div>	   
+                    </div> 
+                    	<img class="car-list-card-img" src="../res/images/nissan/nissan-tianlai.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【天籁】</span>全系车型</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">17.78万-29.98万</s>
+                        <p class="car-real-price"><span>￥</span>让利利姐填！</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="snissan car-list-card-middle 1"   onmouseout="closeVessel('operate47');" onmouseover="openVessel('operate47');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate47" class="operate" onmouseout="closeVessel('operate47');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>享3000元优惠</p>
+                          <p>送腾讯礼包</p>
+                          <p>&nbsp;</p>  
+                          <div class="innerCase1"></div>
+	                      <a href="javascript:void(0)" class="goShopping" id="goShopping" onclick="signUpBox(98,263,832,6,79)" >立即抢购</a>
+  	                    </div>	   
+                    </div> 
+                    	<img class="car-list-card-img" src="../res/images/nissan/nissan-qichen-r50.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【R50】</span>全系车型</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">6.88万-8.83万</s>
+                        <p class="car-real-price"><span>￥</span>6.58万-8.53万</p>
+                        </div>
+                    </div>
+                </li>
+                 <li class="snissan car-list-card-middle 1"   onmouseout="closeVessel('operate48');" onmouseover="openVessel('operate48');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate48" class="operate" onmouseout="closeVessel('operate48');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>享3000元优惠</p>
+                          <p>送腾讯礼包</p>
+                          <p>&nbsp;</p>      
+                          <div class="innerCase1"></div>
+	                      <a href="javascript:void(0)" class="goShopping" id="goShopping" onclick="signUpBox(98,263,831,6,79)" >立即抢购</a>
+  	                    </div>	   
+                    </div> 
+                    	<img class="car-list-card-img" src="../res/images/nissan/nissan-qichen-d50.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【D50】</span>全系车型</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">6.88万-8.83万</s>
+                        <p class="car-real-price"><span>￥</span6.58万-8.53万></p>
+                        </div>
+                    </div>
+                </li>
+            <!--nissan end-->
+            
+            <!--mazda-->
+            <li class="smazda car-list-card-middle 2"    onmouseout="closeVessel('operate50');" onmouseover="openVessel('operate50');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate50" class="operate" onmouseout="closeVessel('operate50');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>送3000元精美礼包</p>
+                          <p>送腾讯礼包</p>
+                          <p>&nbsp;</p>
+                          <div class="innerCase1"></div>
+	                      <a href="javascript:void(0)" class="goShopping" id="goShopping" onclick="signUpBox(1335,252,787,6,79)" >立即抢购</a>
+  	                    </div>	   
+                    </div>
+                    	<img class="car-list-card-img" src="../res/images/mazda/mazda-6-2013SD.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【马自达6】</span>全系车型</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">17.08万-19.98万</s>
+                        <p class="car-real-price"><span>￥</span>12.98万-14.88万</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="smazda car-list-card-middle 3"   onmouseout="closeVessel('operate51');" onmouseover="openVessel('operate51');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate51" class="operate" onmouseout="closeVessel('operate51');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>送3000元精美礼包</p>
+                          <p>置换享6000补贴</p>
+                          <p>送腾讯礼包</p> 
+                          <div class="innerCase1"></div>
+	                      <a href="javascript:void(0)" class="goShopping" id="goShopping" onclick="signUpBox(1335,252,788,6,79)" >立即抢购</a>
+  	                    </div>	   
+                    </div>
+                    	<img class="car-list-card-img" src="../res/images/mazda/mazda-8-ZZ.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【马自达8】</span>全系车型</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">21.98万-24.98万</s>
+                        <p class="car-real-price"><span>￥</span>21.38万-24.58万</p>
+                        </div>
+                    </div>
+                </li> 
+                <li class="smazda car-list-card-middle 2 3"   onmouseout="closeVessel('operate52');" onmouseover="openVessel('operate52');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate52" class="operate" onmouseout="closeVessel('operate52');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>送3000元精美礼包</p>
+                          <p>置换享6000补贴</p>
+                          <p>送腾讯礼包</p>       
+                          <div class="innerCase1"></div>
+	                      <a href="javascript:void(0)" class="goShopping" id="goShopping" onclick="signUpBox(1335,252,790,6,79)" >立即抢购</a>
+  	                    </div>	   
+                    </div> 
+                    	<img class="car-list-card-img" src="../res/images/mazda/mazda-kurui-2013HH2.0L.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【睿翼】</span>全系车型</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">17.98万-22.98万</s>
+                        <p class="car-real-price"><span>￥</span>16.28万-19.78万</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="smazda car-list-card-middle 2 3"   onmouseout="closeVessel('operate53');" onmouseover="openVessel('operate53');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate53" class="operate" onmouseout="closeVessel('operate53');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>送腾讯礼包</p>  
+                          <p>&nbsp;</p>
+                          <p>&nbsp;</p>     
+                          <div class="innerCase1"></div>
+	                      <a href="javascript:void(0)" class="goShopping" id="goShopping" onclick="signUpBox(1336,251,1280,6,79)" >立即抢购</a>
+  	                    </div>	   
+                    </div> 
+                    	<img class="car-list-card-img" src="../res/images/mazda/cx5.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【马自达CX-5】</span>全系车型</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">16.98万-25.28万</s>
+                        <p class="car-real-price"><span>￥</span>16.98万起</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="smazda car-list-card-middle 2"   onmouseout="closeVessel('operate54');" onmouseover="openVessel('operate54');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate54" class="operate" onmouseout="closeVessel('operate54');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>星骋全系优惠1万</p>
+                          <p>十周年纪念版1万抵4万</p>
+                          <p>&nbsp;</p>       
+                          <div class="innerCase1"></div>
+	                      <a href="javascript:void(0)" class="goShopping" id="goShopping" onclick="signUpBox(1336,251,786,6,79)" >立即抢购</a>
+  	                    </div>	   
+                    </div> 
+                    	<img class="car-list-card-img" src="../res/images/mazda/mazda3.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【马自达3星骋】</span>全系车型</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">11.28万-15.38万</s>
+                        <p class="car-real-price"><span>￥</span>11.28万起</p>
+                        </div>
+                    </div>
+                </li>
+            <!--mazda end-->
+            
+            <!--KIA-->
+            <li class="skia car-list-card-middle 1 2"    onmouseout="closeVessel('operate55');" onmouseover="openVessel('operate55');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate55" class="operate" onmouseout="closeVessel('operate55');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>订车送大礼包</p>
+                          <p>送腾讯礼包</p>
+                          <p>&nbsp;</p>
+                          <div class="innerCase1"></div>
+	                      <a href="javascript:void(0)" class="goShopping" id="goShopping" onclick="signUpBox(1555,264,835,6,79)" >立即抢购</a>
+  	                    </div>	   
+                    </div>
+                    	<img class="car-list-card-img" src="../res/images/kia/KIA-K2.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【K2】</span>全系车型</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">7.29万-10.99万</s>
+                        <p class="car-real-price"><span>￥</span>6.99万-10.69万</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="skia car-list-card-middle 1 2"   onmouseout="closeVessel('operate56');" onmouseover="openVessel('operate56');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate56" class="operate" onmouseout="closeVessel('operate56');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>订车送大礼包</p>
+                          <p>送腾讯礼包</p>
+                          <p>&nbsp;</p>
+                          <div class="innerCase1"></div>
+	                      <a href="javascript:void(0)" class="goShopping" id="goShopping" onclick="signUpBox(1555,264,836,6,79)" >立即抢购</a>
+  	                    </div>	   
+                    </div>
+                    	<img class="car-list-card-img" src="../res/images/kia/KIA-K3.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【K3】</span>全系车型</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">10.28万-14.98万</s>
+                        <p class="car-real-price"><span>￥</span>9.88万-14.58万</p>
+                        </div>
+                    </div>
+                </li> 
+                <li class="skia car-list-card-middle 2 3"   onmouseout="closeVessel('operate57');" onmouseover="openVessel('operate57');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate57" class="operate" onmouseout="closeVessel('operate57');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>订车送大礼包</p>
+                          <p>送腾讯礼包</p>
+                          <p>&nbsp;</p>      
+                          <div class="innerCase1"></div>
+	                      <a href="javascript:void(0)" class="goShopping" id="goShopping" onclick="signUpBox(1555,264,837,6,79)" >立即抢购</a>
+  	                    </div>	   
+                    </div> 
+                    	<img class="car-list-card-img" src="../res/images/kia/KIA-K5.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【K5】</span>全系车型</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">15.98万-25.18万</s>
+                        <p class="car-real-price"><span>￥</span>13.98万-22.18万</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="skia car-list-card-middle 2 3"   onmouseout="closeVessel('operate58');" onmouseover="openVessel('operate58');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate58" class="operate" onmouseout="closeVessel('operate58');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>订车送大礼包</p>
+                          <p>送腾讯礼包</p>
+                          <p>&nbsp;</p>    
+                          <div class="innerCase1"></div>
+	                      <a href="javascript:void(0)" class="goShopping" id="goShopping" onclick="signUpBox(1555,264,841,6,79)" >立即抢购</a>
+  	                    </div>	   
+                    </div> 
+                    	<img class="car-list-card-img" src="../res/images/kia/KIA-zhipao.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【智跑】</span>全系车型</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">16.48万-24.98万</s>
+                        <p class="car-real-price"><span>￥</span>14.48万-22.98万</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="skia car-list-card-middle 2 3"   onmouseout="closeVessel('operate59');" onmouseover="openVessel('operate59');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate59" class="operate" onmouseout="closeVessel('operate59');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>订车送大礼包</p>
+                          <p>送腾讯礼包</p>
+                          <p>&nbsp;</p>    
+                          <div class="innerCase1"></div>
+	                      <a href="javascript:void(0)" class="goShopping" id="goShopping" onclick="signUpBox(99,265,843,6,79)" >立即抢购</a>
+  	                    </div>	   
+                    </div> 
+                    	<img class="car-list-card-img" src="../res/images/kia/KIA-jiale.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【新佳乐】</span>全系车型</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">15.98万-20.58万</s>
+                        <p class="car-real-price"><span>￥</span>15.48万-20.18万</p>
+                        </div>
+                    </div>
+                </li>
+                 <li class="skia car-list-card-middle 3"   onmouseout="closeVessel('operate60');" onmouseover="openVessel('operate60');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate60" class="operate" onmouseout="closeVessel('operate60');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>订车送大礼包</p>
+                          <p>送腾讯礼包</p>
+                          <p>&nbsp;</p>    
+                          <div class="innerCase1"></div>
+	                      <a href="javascript:void(0)" class="goShopping" id="goShopping" onclick="signUpBox(99,265,847,6,79)" >立即抢购</a>
+  	                    </div>	   
+                    </div> 
+                    	<img class="car-list-card-img" src="../res/images/kia/KIA-suolantuo.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【索兰托】</span>全系车型</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">23.48万-30.86万</s>
+                        <p class="car-real-price"><span>￥</span>22.48万-29.86万</p>
+                        </div>
+                    </div>
+                </li>
+            <!--KIA end-->
+            
+            <!--subaru-->
+            <li class="ssubaru car-list-card-middle 3"    onmouseout="closeVessel('operate61');" onmouseover="openVessel('operate61');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate61" class="operate" onmouseout="closeVessel('operate61');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>购车送大礼包</p>
+                          <p>送腾讯礼包</p>
+                          <p>&nbsp;</p>    
+                          <div class="innerCase1"></div>
+	                      <a href="javascript:void(0)" class="goShopping" id="goShopping" onclick="signUpBox(116,287,906,6,79)" >立即抢购</a>
+  	                    </div>	   
+                    </div>
+                    	<img class="car-list-card-img" src="../res/images/subaru/sbl-foreste.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【森林人】</span>全系车型</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">22.98万-36.98万</s>
+                        <p class="car-real-price"><span>￥</span>20.98万-34.98万</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="ssubaru car-list-card-middle 3 4"   onmouseout="closeVessel('operate62');" onmouseover="openVessel('operate62');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate62" class="operate" onmouseout="closeVessel('operate62');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>购车送大礼包</p>
+                          <p>送腾讯礼包</p>
+                          <p>&nbsp;</p> 
+                          <div class="innerCase1"></div>
+	                      <a href="javascript:void(0)" class="goShopping" id="goShopping" onclick="signUpBox(116,287,903,6,79)" >立即抢购</a>
+  	                    </div>	   
+                    </div>
+                    	<img class="car-list-card-img" src="../res/images/subaru/sbl-outback.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【傲虎】</span>全系车型</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">29.98万-44.98万</s>
+                        <p class="car-real-price"><span>￥</span>26.98万-41.98万</p>
+                        </div>
+                    </div>
+                </li> 
+                <li class="ssubaru car-list-card-middle 2 3"   onmouseout="closeVessel('operate63');" onmouseover="openVessel('operate63');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate63" class="operate" onmouseout="closeVessel('operate63');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>购车送大礼包</p>
+                          <p>送腾讯礼包</p>
+                          <p>&nbsp;</p>      
+                          <div class="innerCase1"></div>
+	                      <a href="javascript:void(0)" class="goShopping" id="goShopping" onclick="signUpBox(116,287,908,6,79)" >立即抢购</a>
+  	                    </div>	   
+                    </div> 
+                    	<img class="car-list-card-img" src="../res/images/subaru/sbl-xv.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【XV】</span>全系车型</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">19.98万-23.28万</s>
+                        <p class="car-real-price"><span>￥</span>18.48万-21.78万</p>
+                        </div>
+                    </div>
+                </li>
+            <!--subaru end-->
+            
+            <!--byd-->
+            <li class="sbyd car-list-card-middle 2"    onmouseout="closeVessel('operate64');" onmouseover="openVessel('operate64');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate64" class="operate" onmouseout="closeVessel('operate64');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>六速手豪包牌11.38万</p>
+                          <p>全系最高优惠5000元</p>
+                          <p>&nbsp;</p>    
+                          <div class="innerCase1"></div>
+	                      <a href="javascript:void(0)" class="goShopping" id="goShopping" onclick="signUpBox(14,157,432,6,79)" >立即抢购</a>
+  	                    </div>	   
+                    </div>
+                    	<img class="car-list-card-img" src="../res/images/byd/byd-siyue.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【思锐】</span>全系车型</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">10.39万-15.09万</s>
+                        <p class="car-real-price"><span>￥</span>让利利姐填！</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="sbyd car-list-card-middle 1"   onmouseout="closeVessel('operate65');" onmouseover="openVessel('operate65');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate65" class="operate" onmouseout="closeVessel('operate65');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>1.5手豪包牌7.98万</p>
+                          <p>全系最高优惠4000元</p>
+                          <p>&nbsp;</p> 
+                          <div class="innerCase1"></div>
+	                      <a href="javascript:void(0)" class="goShopping" id="goShopping" onclick="signUpBox(14,157,433,6,79)" >立即抢购</a>
+  	                    </div>	   
+                    </div>
+                    	<img class="car-list-card-img" src="../res/images/byd/byd-surui.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【速锐】</span>全系车型</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">6.59万-9.99万</s>
+                        <p class="car-real-price"><span>￥</span>让利利姐填！</p>
+                        </div>
+                    </div>
+                </li> 
+                <li class="sbyd car-list-card-middle 1"   onmouseout="closeVessel('operate66');" onmouseover="openVessel('operate66');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate66" class="operate" onmouseout="closeVessel('operate66');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>全系最高优惠4000元</p>
+                          <p>送腾讯礼包</p>
+                          <p>&nbsp;</p>      
+                          <div class="innerCase1"></div>
+	                      <a href="javascript:void(0)" class="goShopping" id="goShopping" onclick="signUpBox(14,157,429,6,79)" >立即抢购</a>
+  	                    </div>	   
+                    </div> 
+                    	<img class="car-list-card-img" src="../res/images/byd/byd-l3.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【L3】</span>全系车型</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">5.99万-8.29万</s>
+                        <p class="car-real-price"><span>￥</span>让利利姐填！</p>
+                        </div>
+                    </div>
+                </li>
+                 <li class="sbyd car-list-card-middle 1"    onmouseout="closeVessel('operate67');" onmouseover="openVessel('operate67');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate67" class="operate" onmouseout="closeVessel('operate67');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>舒适型包牌价5.38万</p>
+                          <p>送腾讯礼包</p>
+                          <p>&nbsp;</p>    
+                          <div class="innerCase1"></div>
+	                      <a href="javascript:void(0)" class="goShopping" id="goShopping" onclick="signUpBox(14,157,423,6,79)" >立即抢购</a>
+  	                    </div>	   
+                    </div>
+                    	<img class="car-list-card-img" src="../res/images/byd/byd-f3.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【F3】</span>全系车型</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">5.29万-7.39万</s>
+                        <p class="car-real-price"><span>￥</span>让利利姐填！</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="sbyd car-list-card-middle 1 2"   onmouseout="closeVessel('operate68');" onmouseover="openVessel('operate68');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate68" class="operate" onmouseout="closeVessel('operate68');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>2.0手豪包牌价8.99万</p>
+                          <p>2.4尊享包牌价13.98万</p>
+                          <p>&nbsp;</p> 
+                          <div class="innerCase1"></div>
+	                      <a href="javascript:void(0)" class="goShopping" id="goShopping" onclick="signUpBox(14,157,431,6,79)" >立即抢购</a>
+  	                    </div>	   
+                    </div>
+                    	<img class="car-list-card-img" src="../res/images/byd/byd-s6.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【S6】</span>全系车型</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">7.99万12.39万</s>
+                        <p class="car-real-price"><span>￥</span>让利利姐填！</p>
+                        </div>
+                    </div>
+                </li> 
+                <li class="sbyd car-list-card-middle 1"   onmouseout="closeVessel('operate69');" onmouseover="openVessel('operate69');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate69" class="operate" onmouseout="closeVessel('operate69');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>3000元优惠</p>
+                          <p>送千元油卡和新年礼包</p>
+                          <p>&nbsp;</p>      
+                          <div class="innerCase1"></div>
+	                      <a href="javascript:void(0)" class="goShopping" id="goShopping" onclick="signUpBox(14,157,422,6,79)" >立即抢购</a>
+  	                    </div>	   
+                    </div> 
+                    	<img class="car-list-card-img" src="../res/images/byd/byd-f0.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【F0】</span>全系车型</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">3.69万-4.69万</s>
+                        <p class="car-real-price"><span>￥</span>让利利姐填！</p>
+                        </div>
+                    </div>
+                </li>
+            <!--byd end-->
+            
+            <!--cadillac-->
+            <li class="scadillac car-list-card-middle 2"    onmouseout="closeVessel('operate70');" onmouseover="openVessel('operate70');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate70" class="operate" onmouseout="closeVessel('operate70');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>自动Hybrid 2011款优惠30万</p>
+                          <p>送腾讯礼包</p>
+                          <p>&nbsp;</p>    
+                          <div class="innerCase1"></div>
+	                      <a href="javascript:void(0)" class="goShopping" id="goShopping" onclick="signUpBox(69,228,706,6,79)" >立即抢购</a>
+  	                    </div>	   
+                    </div>
+                    	<img class="car-list-card-img" src="../res/images/cadillac/kld.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【凯雷德】</span>全系车型</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">15.88万</s>
+                        <p class="car-real-price"><span>￥</span>让利利姐填！</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="scadillac car-list-card-middle 4"   onmouseout="closeVessel('operate71');" onmouseover="openVessel('operate71');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate71" class="operate" onmouseout="closeVessel('operate71');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>优惠2万</p>
+                          <p>送腾讯礼包</p>
+                          <p>&nbsp;</p> 
+                          <div class="innerCase1"></div>
+	                      <a href="javascript:void(0)" class="goShopping" id="goShopping" onclick="signUpBox(69,227,703,6,79)" >立即抢购</a>
+  	                    </div>	   
+                    </div>
+                    	<img class="car-list-card-img" src="../res/images/cadillac/XTS.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【XTS】</span>全系车型</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">34.99万-56.99万</s>
+                        <p class="car-real-price"><span>￥</span>最低32.99万起</p>
+                        </div>
+                    </div>
+                </li> 
+                <li class="scadillac car-list-card-middle 4 5"   onmouseout="closeVessel('operate72');" onmouseover="openVessel('operate72');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate72" class="operate" onmouseout="closeVessel('operate72');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>优惠4万</p>
+                          <p>送腾讯礼包</p>
+                          <p>&nbsp;</p>      
+                          <div class="innerCase1"></div>
+	                      <a href="javascript:void(0)" class="goShopping" id="goShopping" onclick="signUpBox(69,228,705,6,79)" >立即抢购</a>
+  	                    </div>	   
+                    </div> 
+                    	<img class="car-list-card-img" src="../res/images/cadillac/SRX.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【SRX】</span>全系车型</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">42.98万-62.8万</s>
+                        <p class="car-real-price"><span>￥</span>最低38.98万起</p>
+                        </div>
+                    </div>
+                </li>
+            <!--cadillac end-->
+            
+            <!--chery-->
+            <li class="schery car-list-card-middle 2"    onmouseout="closeVessel('operate73');" onmouseover="openVessel('operate73');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate73" class="operate" onmouseout="closeVessel('operate73');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>优惠7000元</p>
+                          <p>送腾讯礼包</p>
+                          <p>&nbsp;</p>    
+                          <div class="innerCase1"></div>
+	                      <a href="javascript:void(0)" class="goShopping" id="goShopping" onclick="signUpBox(97,262,1039,6,79)" >立即抢购</a>
+  	                    </div>	   
+                    </div>
+                    	<img class="car-list-card-img" src="../res/images/chery/qirui-dongfangzhizi.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【东方之子】</span>全系车型</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">让利利姐填上！</s>
+                        <p class="car-real-price"><span>￥</span>优惠价10.78万</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="schery car-list-card-middle 1"   onmouseout="closeVessel('operate74');" onmouseover="openVessel('operate74');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate74" class="operate" onmouseout="closeVessel('operate74');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>优惠3000元</p>
+                          <p>送腾讯礼包</p>
+                          <p>&nbsp;</p> 
+                          <div class="innerCase1"></div>
+	                      <a href="javascript:void(0)" class="goShopping" id="goShopping" onclick="signUpBox(97,262,827,6,79)" >立即抢购</a>
+  	                    </div>	   
+                    </div>
+                    	<img class="car-list-card-img" src="../res/images/chery/qirui-qiyun.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【旗云2】</span>全系车型</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">让利利姐填上！</s>
+                        <p class="car-real-price"><span>￥</span>4.68万-4.98万</p>
+                        </div>
+                    </div>
+                </li> 
+                <li class="schery car-list-card-middle 1"   onmouseout="closeVessel('operate75');" onmouseover="openVessel('operate75');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate75" class="operate" onmouseout="closeVessel('operate75');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>送腾讯礼包</p>
+                          <p>&nbsp;</p>    
+                          <p>&nbsp;</p>    
+                          <div class="innerCase1"></div>
+	                      <a href="javascript:void(0)" class="goShopping" id="goShopping" onclick="signUpBox(97,262,1041,6,79)" >立即抢购</a>
+  	                    </div>	   
+                    </div> 
+                    	<img class="car-list-card-img" src="../res/images/chery/qirui-arrizo.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【艾瑞泽7】</span>全系车型</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">让利利姐填上！</s>
+                        <p class="car-real-price"><span>￥</span>8.29万起</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="schery car-list-card-middle 1"   onmouseout="closeVessel('operate76');" onmouseover="openVessel('operate76');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate76" class="operate" onmouseout="closeVessel('operate76');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>送腾讯礼包</p>
+                          <p>&nbsp;</p>    
+                          <p>&nbsp;</p>    
+                          <div class="innerCase1"></div>
+	                      <a href="javascript:void(0)" class="goShopping" id="goShopping" onclick="signUpBox(97,262,830,6,79)" >立即抢购</a>
+  	                    </div>	   
+                    </div> 
+                    	<img class="car-list-card-img" src="../res/images/chery/qirui-ruihu.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【瑞虎】</span>全系车型</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">让利利姐填上！</s>
+                        <p class="car-real-price"><span>￥</span>8.29万起</p>
+                        </div>
+                    </div>
+                </li>
+            <!--chery end-->
+            
+            <!--ford-->
+            <li class="sford car-list-card-middle 1 2"    onmouseout="closeVessel('operate83');" onmouseover="openVessel('operate83');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate83" class="operate" onmouseout="closeVessel('operate83');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>开业1500元加油补贴</p>
+                          <p>最高优惠1.8万</p>
+                          <p>&nbsp;</p>    
+                          <div class="innerCase1"></div>
+	                      <a href="javascript:void(0)" class="goShopping" id="goShopping" onclick="signUpBox(39,192,1127,6,79)" >立即抢购</a>
+  	                    </div>	   
+                    </div>
+                    	<img class="car-list-card-img" src="../res/images/ford/jingdian.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【经典福克斯】</span>全系车型</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">9.98万-12.38万</s>
+                        <p class="car-real-price"><span>￥</span>让利利姐填！</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="sford car-list-card-middle 2 3"   onmouseout="closeVessel('operate84');" onmouseover="openVessel('operate84');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate84" class="operate" onmouseout="closeVessel('operate84');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>开业1500元加油补贴</p>
+                          <p>综合优惠3万</p>
+                          <p>&nbsp;</p> 
+                          <div class="innerCase1"></div>
+	                      <a href="javascript:void(0)" class="goShopping" id="goShopping" onclick="signUpBox(39,192,586,6,79)" >立即抢购</a>
+  	                    </div>	   
+                    </div>
+                    	<img class="car-list-card-img" src="../res/images/ford/maikesi.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【麦柯斯】</span>全系车型</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">19.48万-24.58万</s>
+                        <p class="car-real-price"><span>￥</span>让利利姐填！</p>
+                        </div>
+                    </div>
+                </li> 
+                <li class="sford car-list-card-middle 2"   onmouseout="closeVessel('operate85');" onmouseover="openVessel('operate85');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate85" class="operate" onmouseout="closeVessel('operate85');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>开业1500元加油补贴</p>
+                          <p>新福克斯综合优惠1.8万</p>
+                          <p>&nbsp;</p>      
+                          <div class="innerCase1"></div>
+	                      <a href="javascript:void(0)" class="goShopping" id="goShopping" onclick="signUpBox(39,192,584,6,79)" >立即抢购</a>
+  	                    </div>	   
+                    </div> 
+                    	<img class="car-list-card-img" src="../res/images/ford/new.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【福克斯】</span>全系车型</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">11.9万-16.99万</s>
+                        <p class="car-real-price"><span>￥</span>让利利姐填！</p>
+                        </div>
+                    </div>
+                </li>
+            <!--ford end-->
+ 
+            	<p class="clear"></p>
+            </ul>
+            
+            <!--car-list end-->
+        </div>
+        <!--contant-list end-->
+    </div> 
+    <!--main end-->
+    
+</body>
+</html>

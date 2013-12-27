@@ -1,0 +1,260 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="content-language" content="zh-CN">
+<title>大粤汽车网-汽车厂价直推</title>
+
+<script src="../res/js/jquery-1.4.2.min.js" type="text/javascript" ></script>
+<meta name="Keywords" content="大粤汽车网-汽车厂价直推">
+<meta name="Description" content="大粤汽车网，为你提供比4S店更低的价格，底价直推">
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7"/>
+<link rel="shortcut icon" href="/favicon.ico" >
+<title>双十一疯狂抢购</title>
+<link rel="stylesheet" href="../res/css/newtest.css">
+<script src="http://code.jquery.com/jquery-1.5.2.min.js" language="javascript"></script>
+<script src="../res/js/newtest.js" type="text/javascript" ></script>
+<script src="../res/js/jquery.foucs.js" type="text/javascript" ></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$.foucs({
+		direction: 'right'
+	});
+});
+</script>
+
+</head>
+
+<body class="bg01">
+    <!--mini-head begin-->
+<!--	<div class="mini-head">
+    	<img head-pic1 src="../res/img/btn_01.jpg" />
+        <img head-pic2 src="../res/img/btn_02.jpg" />
+    </div>-->
+    <!--min-head end-->
+    <!--banner begin--> 
+    	<div class="banner">
+    	<img class="banner-pic" src="../res/img/banner.jpg" />
+        </div>  
+    <!--banner end-->
+    
+    <!--focus-pic begin-->
+    <div class="focusbox">
+	<div id="fullbanner">
+		<div class="wrappic">
+			<ul>
+				<li class="plan"><a href="XXXX" target="_blank"><img width="950" height="400" src="../res/img/1.jpg" alt="奔驰" /></a></li>
+				<li class="plan"><a href="XXXX" target="_blank"><img width="950" height="400" src="../res/img/2.jpg" alt="奥迪" /></a></li>
+				<li class="plan"><a href="XXXX" target="_blank"><img width="950" height="400" src="../res/img/3.jpg" alt="宝马" /></a></li>
+				<li class="plan"><a href="XXXX" target="_blank"><img width="950" height="400" src="../res/img/4.jpg" alt="丰田" /></a></li>
+			</ul>
+		</div>
+		
+		<div class="helper">
+			<div class="mask-left"></div>
+			<div class="mask-right"></div>
+			<a href="javascript:void();" class="prev arrow-left"></a>
+			<a href="javascript:void();" class="next arrow-right"></a>
+		</div>
+	</div>
+</div>
+
+    <!--focus-pic end-->
+    <!--nav begin-->
+    <div class="nav" id="nav">
+    	<div class="nav-head">
+        <p>——&nbsp;&nbsp;&nbsp;&nbsp;特&nbsp;&nbsp;惠&nbsp;&nbsp;卖&nbsp;&nbsp;场&nbsp;&nbsp;&nbsp;&nbsp;——</p>
+        </div>
+        <div class="price-nav">
+        	<ul class="price-nav-ul">
+               <li class="price-nav-list"><a href="dongguan.html#carBox" target="carMainBox" onclick="selectPrice(0)">&nbsp;&nbsp;全部&nbsp;&nbsp;</a></li>
+               <li class="price-nav-list"><a href="dongguan.html#carBox" target="carMainBox" onclick="selectPrice(1)">10W 以下</a></li>
+               <li class="price-nav-list"><a href="dongguan.html#carBox" target="carMainBox" onclick="selectPrice(2)">10W-20W</a></li>
+               <li class="price-nav-list"><a href="dongguan.html#carBox" target="carMainBox" onclick="selectPrice(3)">20W-40W</a></li>
+               <li class="price-nav-list"><a href="dongguan.html#carBox" target="carMainBox" onclick="selectPrice(4)">40W-60W</a></li>
+               <li class="price-nav-list"><a href="dongguan.html#carBox" target="carMainBox" onclick="selectPrice(5)">60W-80W</a></li>
+               <li class="price-nav-list"><a href="dongguan.html#carBox" target="carMainBox" onclick="selectPrice(6)">80W-90W</a></li>
+               <li class="price-nav-list"><a href="dongguan.html#carBox" target="carMainBox" onclick="selectPrice(7)">100W以上</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--nav end-->
+    <!--main begin-->
+    <div id="iframeHeight">
+    <iframe id="carMainBox" name="carMainBox" src="dongguan.html" frameborder="0" width="100%" height="100%" scrolling="no"></iframe>
+    </div>
+    <!--main end-->
+    
+    <!--left-nav begin-->
+    <div class="leftzone">
+    	<div class="left-ul-title">
+        	<p>品牌定位</p>
+        </div>
+        <div class="left-ul-box">
+        	<ul id="left-ul">
+            	<li>
+                	<a class="brand" href="dongguan.html#0" target="carMainBox"><!--audi-->
+                    	<div class="audi"></div>
+                        <p>奥迪</p>
+                    </a>
+                </li>
+                <li>
+                	<a class="brand" href="dongguan.html#1" target="carMainBox"><!--benz-->
+                    	<div class="benz"></div>
+                        <p>奔驰</p>
+                    </a>
+                </li>
+                <li>
+                	<a class="brand" href="dongguan.html#2" target="carMainBox"><!--bmw-->
+                    	<div class="bmw"></div>
+                        <p>宝马</p>
+                    </a>
+                </li>
+                <li>
+                	<a class="brand" href="dongguan.html#3" target="carMainBox"><!--chevy-->
+                    	<div class="chevy"></div>
+                        <p>雪佛兰</p>
+                    </a>
+                </li>
+                <li>
+                	<a class="brand" href="dongguan.html#4" target="carMainBox"><!--honda-->
+                    	<div class="honda"></div>
+                        <p>本田</p>
+                    </a>
+                </li>
+                <li>
+                	<a class="brand" href="dongguan.html#5" target="carMainBox"><!--toyata-->
+                    	<div class="toyota"></div>
+                        <p>丰田</p>
+                    </a>
+                </li>
+                <li>
+                	<a class="brand" href="dongguan.html#6" target="carMainBox"><!--hyundai-->
+                    	<div class="hyundai"></div>
+                        <p>现代</p>
+                    </a>
+                </li>
+                <li>
+                	<a class="brand" href="dongguan.html#7" target="carMainBox"><!--volkwagen-->
+                    	<div class="volkswagen"></div>
+                        <p>大众</p>
+                    </a>
+                </li>
+                <li>
+                	<a class="brand" href="dongguan.html#8" target="carMainBox"><!--buick-->
+                    	<div class="buick"></div>
+                        <p>别克</p>
+                    </a>
+                </li>
+                <li>
+                	<a class="brand" href="dongguan.html#9" target="carMainBox"><!--lexus-->
+                    	<div class="lexus"></div>
+                        <p>雷克萨斯</p>
+                    </a>
+                </li>
+                <li>
+                	<a class="brand" href="dongguan.html#10" target="carMainBox"><!--pulchritube-->
+                    	<div class="pulchritube"></div>
+                        <p>标致</p>
+                    </a>
+                </li>
+                <li>
+                	<a class="brand" href="dongguan.html#11" target="carMainBox"><!--citroen-->
+                    	<div class="citroen"></div>
+                        <p>雪铁龙</p>
+                    </a>
+                </li>
+                <li>
+                	<a class="brand" href="dongguan.html#12" target="carMainBox"><!--nissan-->
+                    	<div class="nissan"></div>
+                        <p>日产</p>
+                    </a>
+                </li>
+                <li>
+                	<a class="brand" href="dongguan.html#13" target="carMainBox"><!--mitsubishi-->
+                    	<div class="mitsubishi"></div>
+                        <p>三菱</p>
+                    </a>
+                </li>
+                <li>
+                	<a class="brand" href="dongguan.html#14" target="carMainBox"><!--mazda-->
+                    	<div class="mazda"></div>
+                        <p>马自达</p>
+                    </a>
+                </li>
+                <li>
+                	<a class="brand" href="dongguan.html#15" target="carMainBox"><!--kia-->
+                    	<div class="kia"></div>
+                        <p>起亚</p>
+                    </a>
+                </li>
+                <li>
+                	<a class="brand" href="dongguan.html#16" target="carMainBox"><!--subaru-->
+                    	<div class="subaru"></div>
+                        <p>斯巴鲁</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--left-nav end-->
+    
+    <!--right-nav begin-->
+        <div class="right-nav">
+    	<div class="right-ul-title">
+        	<p>地区定位</p>
+        </div>
+        <div class="right-ul-box">
+        	<ul>
+            	<li><a href="javascript:void(0)" onclick="changeAera(1)">东&nbsp&nbsp 莞</a></li>
+                <li><a href="javascript:void(0)" onclick="changeAera(2)">惠&nbsp&nbsp 州</a></li>
+                <li><a href="#">珠&nbsp&nbsp 海</a></li>
+                <li><a href="#">江&nbsp&nbsp 门</a></li>
+                <li><a href="#">佛&nbsp&nbsp 山</a></li>
+                <li><a href="#">广&nbsp&nbsp 州</a></li>
+                <li><a href="#">深&nbsp&nbsp 圳</a></li>
+                <li><a href="#">粤&nbsp&nbsp 东</a></li>
+                <li><a href="#">粤&nbsp&nbsp 西</a></li>
+            </ul>
+            <div class="right-ul-title">
+        		<p>扫一扫</p>
+        	</div>
+            <img src="../res/img/rightNav/semocodeBig.jpg" width="103" height="103" />
+        </div>
+    </div>
+    <!--right-nav end-->
+    
+    <!--footer begin-->
+    <div class="footer">
+    	<!--<img src="../res/img/02.jpg" />-->
+    	<div class="copyright"></div>
+    </div>
+	<!--footer end-->
+    <script type="text/javascript">
+	     var test = false;
+		$(window).scroll(function(){
+             var h_num=$(window).scrollTop();
+             if(h_num>800){
+                $('.price-nav').addClass('fixer'); 
+				if(!test)
+				{
+                   var stayPos = document.createElement("div");
+				   stayPos.id= "stayPosDiv";
+				   stayPos.style.height = "38px";
+				   var temp = document.getElementById("nav");
+				   temp.appendChild(stayPos);
+				   test=true;
+				}
+             }else{
+                $('.price-nav').removeClass('fixer');
+				if(test)
+				{
+				  var temp = document.getElementById("nav");
+				  temp.removeChild(stayPosDiv);
+				  test = false;
+				}
+             }   
+          });
+    </script>
+</body>
+</html>

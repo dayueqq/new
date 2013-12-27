@@ -1,0 +1,837 @@
+@charset "utf-8";
+/* CSS Document */
+/*初始化*/
+* {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+html{
+
+}
+
+dl, ol, ul, li
+{
+	list-style:none;
+}
+
+a
+{
+	text-decoration:none;
+    outline:none;
+}
+
+a:hover
+{
+	text-decoration:underline;
+}
+
+a,img
+{
+	border:none;
+}
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	background:url(../img/navBackground.jpg) repeat;
+	height:100%;
+}
+
+.mini-head{
+	width:100%;
+	margin:0 auto;
+}
+
+.banner
+{
+	background:#3d0010;
+	width:100%;
+	height:487px;
+	margin:0 auto;
+	text-align:center;	
+}
+
+.banner img
+{
+	background:url(../images/banner.jpg);
+	width:1200px;
+	height:487px;
+	margin:0 auto;
+}
+
+.procedure-div-left
+{
+	margin:0;
+	width:50%;
+	height:57px;
+	padding:0;
+	background:#141414;
+	position:relative;
+	float:left;
+}
+
+.procedure-div-left img
+{
+	float:right;
+}
+
+.procedure-div-right
+{
+	margin:0;
+	width:50%;
+	height:57px;
+	padding:0;
+	position:relative;
+	float:left;
+	background:#000000;
+}		
+	
+.procedure{
+	width:100%;
+	height:57px;
+}
+
+/*focus begin*/
+/*.focus{
+	width:1346px;
+	margin:0 auto;
+}
+
+.focus img{
+	width:1346px;
+	height:420px;
+	margin:0 auto;
+}*/
+/* focusbox */
+.focusbox{position:relative;overflow:hidden;zoom:1;}
+#fullbanner{width:960px;height:410px;margin:auto;position:relative;}
+#fullbanner li a{display:block;width:950px;height:400px;overflow:hidden;}
+#fullbanner img{width:950px;height:400px;}
+#fullbanner ul{width:960px;height:410px;}
+#fullbanner .wrappic{overflow:visible;position:absolute;}
+#fullbanner .next, #fullbanner .prev{filter:alpha(Opacity=70);opacity:.7;position:absolute;top:50%;margin-top:-25px;margin-left:5px;background-color:#303030;z-index:3;}
+#fullbanner .next:hover, #fullbanner .prev:hover{background-color:orangered;}
+#fullbanner .next{margin:-25px 5px 0 0;right:0;}
+#fullbanner .mask-left, #fullbanner .mask-right, #fullbanner .plan{background:#fff;padding:5px;z-index:1;position:absolute;top:0;left:0;width:950px;height:400px;overflow:hidden;left:1920px;}
+#fullbanner .mask-right, #fullbanner .mask-left{z-index:4;left:-960px;filter:alpha(Opacity=50);opacity:.5;background:#fff;overflow:hidden;}
+#fullbanner .mask-right{left:960px;}
+
+.arrow-left,.arrow-right{background:url(../img/icon-sd26986d847.png) no-repeat;}
+.arrow-left{background-position:15px 12px;height:50px;width:50px;}
+.arrow-left:hover{background-position:-45px 12px;}
+.arrow-right{background-position:-103px 12px;height:50px;width:50px;}
+.arrow-right:hover{background-position:-163px 12px;}
+/*focus box end*/
+/*focus end*/
+
+
+.nav{
+	width:100%;
+}
+
+.nav-head p
+{
+	text-align:center;
+	font-family:"微软雅黑";
+	font-weight:bold;
+	color:#FFF;
+	font-size:16px;
+	margin-top:45px;
+	margin-bottom:25px;
+}
+.logo-nav
+{
+	width:900px;
+	margin:0 auto;
+	height:70px;
+}
+
+.logo-nav-ul
+{
+	width:900px;
+	margin:0 auto;
+}
+
+.logo-nav-list
+{
+	width:90px;
+	height:30px;
+	position:relative;
+	float:left;
+	border:none;
+	margin:0 0 5px 0;
+}
+.logo-nav-list a{
+	display:block;
+	width:90px;
+	height:30px;
+}
+.logo-nav-list:hover{
+	
+}
+
+.price-nav
+{
+	width:100%;
+	margin:0 auto;
+	height:38px;
+	background:#000;
+}
+.fixer{ 
+	position:fixed;  
+	top:0px;
+	width:100%;
+	_position:absolute;
+	_top:expression(documentElement.scrollTop+10 + "px")
+	z-index:777;
+}
+.price-nav-ul
+{
+	width:900px;
+	margin:0 auto;	
+}
+
+.price-nav-list
+{
+	width:88px;
+	height:30px;
+	float:left;
+	margin:0;
+	
+}
+
+.price-nav-list a
+{
+	font-family:"微软雅黑";
+	font-size:14px;
+	color:#FFF;
+	width:88px;
+	height:25px;
+	text-align:center;
+	display:block;
+	padding-top:9px;
+}
+
+.price-nav-list a:hover
+{
+	text-decoration:none;
+	color:#FF0;
+}
+
+.main {
+	width:915px;
+	margin:0 auto;
+	height:100%;
+}
+
+.contant-list
+{
+	height:100%;
+	position:relative;
+	left:8px;
+}
+
+.footer{
+	width:900px;
+	margin:0 auto;
+	padding:0;
+}
+
+.footer img{
+    width:900px;
+	margin:0 auto;	
+}
+
+.car-list ul{
+	display:block;
+}
+
+.car-list .car-list-card-middle{
+	width:290px;
+	height:400px;
+	margin:0;
+	padding:0;
+	background:#FFF;
+	position:relative;
+	float:left;
+	margin:0 15px 15px 0;
+	display:block;
+}
+
+.car-list-card-contant img{
+	width:290px;
+	height:250px;
+	padding:0;
+	margin:0;
+}
+
+.car-model
+{
+	text-align:center;
+	font-family:"微软雅黑";
+	font-size:16px;
+	color:#333;
+	margin-top:23px;
+	overflow:hidden;
+}
+
+.car-model span
+{
+	font-weight:600;
+	color:#000;
+}
+.car-price
+{
+	text-align:center;
+	font-family:"微软雅黑";
+	font-size:12px;
+	color:#333;
+	margin-top:27px;
+}
+
+.car-price span
+{
+	font-weight:600;
+	color:#000;
+}
+.car-fake-price
+{
+	font-family:"微软雅黑";
+	font-size:12px;
+	color:#999;
+	text-align:center;
+}
+.car-real-price
+{
+	font-family:"微软雅黑";
+	font-size:24px;
+	color:#F00;
+	font-weight:600;
+	text-align:center;
+}
+.car-real-price span
+{   
+	font-family:"微软雅黑";
+	font-size:24px;
+	color:#F00;
+	font-weight:600;
+}
+/*浮动层CSS*/
+.opacityLayer
+{
+	overflow:hidden;
+}
+.opacityLayer 
+{	
+	margin-top:0px;
+	font-size:14px;
+	color:white;
+	text-decoration:none;
+	display:block;	
+	overflow:hidden;
+}
+
+.clear
+{
+	clear:both;
+	height:0;
+	overflow:hidden;
+}
+
+.clearfix:after
+{
+	content:".";
+	display:block;
+	height:0px;
+	clear:both;
+	visibility:hidden;
+}
+
+.clearfix
+{
+	zoom:1;
+}
+
+.operate .opacityLayer
+{   
+	background:url(../img/6.png) repeat-y;
+	width:290px;
+	height:400px;
+	position:absolute;
+	z-index:144;
+}
+
+.innerCase
+{
+	width:290px;
+	height:70px;
+}
+
+.innerCase1
+{
+	width:290px;
+	height:94px;
+}
+
+.operate p
+{
+	font-family:"微软雅黑";
+	font-weight:700;
+	font-size:20px;
+	text-align:center;
+	vertical-align:middle;
+    opacity:1;
+	
+}
+
+.goShopping 
+{
+	position:relative;
+	bottom:34px;
+	font-family:"微软雅黑";
+	font-weight:700;
+	font-size:18px;
+	text-align:center;
+	color:#FFF;
+	background:#8e0000;
+	display:block;
+	width:290px;
+	height:26px;
+	padding:5px;
+	
+}
+
+.goShopping:hover
+{
+	text-decoration:none;
+}
+/*浮动层 CSS 结束*/
+
+
+/*right-nav css begin*/
+.right-nav{
+	float: left;
+	width: 137px;
+	height:100%;
+	position:fixed;
+	top:0%;
+	right:0%;
+	font-family:"微软雅黑";
+	z-index:4000;
+}
+.right-ul-title{
+	width:137px;
+	height:35px;
+	background:#720000;
+	overflow:hidden;
+}
+.right-ul-title p{
+	font-family:"微软雅黑";
+	font-size:16px;
+	width:70px;
+	height:20px;
+	color:#fff;
+	margin:0 auto;
+	position:relative;
+	top:6px;
+	text-align:center;
+}
+.right-ul-box{
+	background:#000;
+	width:137px;
+	height:100%;
+	overflow:hidden;
+}
+.right-ul-box ul{
+	width:137px;
+	height:auto;
+	margin:5px 0 5px 0;
+}
+.unselected{
+	width:137px;
+	height:30px;
+	margin:0 0 5px 0;
+}
+.selected{
+	background:url(../img/brand1-hover2.png);
+	width:137px;
+	height:30px;
+	margin:0 0 5px 0;
+}
+.right-ul-box ul li:hover{
+	background:url(../img/brand1-hover2.png);
+}
+.right-ul-box ul li a{
+	display:block;	
+	width:137px;
+	height:20px;
+	margin:0 auto;
+	color:#fff;
+	text-align:center;
+	font-size:14px;
+	padding:5px 0 5px 0;
+	text-decoration:none;
+}
+.right-ul-box img{
+	margin:17px 0 0 17px;
+}
+/*right-nav end*/
+
+
+/*left-nav css begin*/
+.leftzone 
+{
+	float: left;
+	width: 137px;
+	height:100%;
+	position:fixed;
+	top:0%;
+	left:0%;
+	font-family:"微软雅黑";
+	z-index:4000;
+	
+}
+/****左侧商品导航条****/
+.left-ul-title{
+	width:147px;
+	height:35px;
+	background:#720000;
+	overflow:hidden;
+}
+.left-ul-title p{
+	font-family:"微软雅黑";
+	font-size:16px;
+	width:70px;
+	height:20px;
+	color:#fff;
+	margin:0 auto;
+	position:relative;
+	top:6px;
+}
+.left-ul-box{
+	background:#000;
+	width:147px;
+	height:100%;
+	overflow:hidden;
+}
+.left-ul-box ul{
+	width:147px;
+	height:auto;
+	margin:5px 0 5px 0;
+}
+.left-ul-box ul li{
+	width:147px;
+	height:30px;
+	margin:0 0 5px 0;
+}
+.left-ul-box ul li:hover{
+	background:url(../img/brand1-hover2.png);
+}
+.left-ul-box ul li a{
+	width:137px;
+	height:30px;
+	margin:0 auto;
+	font-size:14px;
+	color:#FFF;
+	text-decoration:none;
+}
+.brand{
+	width:45px;
+	height:30px;
+}
+.left-ul-box ul li a p{
+	width:72px;
+	height:20px;
+	float:left;
+	padding:5px 0 5px 10px;
+}
+.c-unselected{
+	width:137px;
+	height:30px;
+	margin:0 0 5px 0;
+}
+.c-selected{
+	background:url(../img/brand1-hover2.png);
+	width:137px;
+	height:30px;
+	margin:0 0 5px 0;
+}
+
+/*各种品牌*/
+.audi{
+	background:url(../img/brandlogo/brandAudi.png) no-repeat;
+	width:45px;
+	height:30px;
+	display:block;
+	float:left;
+	margin:0 0 0 10px;
+}
+.benz{
+	background:url(../img/brandlogo/brandBenz.png) no-repeat;
+	width:45px;
+	height:30px;
+	display:block;
+	float:left;
+	margin:0 0 0 10px;
+}
+.bmw{
+	background:url(../img/brandlogo/brandBmw.png) no-repeat;
+	width:45px;
+	height:30px;
+	display:block;
+	float:left;
+	margin:0 0 0 10px;
+}
+.chevy{
+	background:url(../img/brandlogo/brandChevy.png) no-repeat;
+	width:45px;
+	height:30px;
+	display:block;
+	float:left;
+	margin:0 0 0 10px;
+}
+.honda{
+	background:url(../img/brandlogo/brandHonda.png) no-repeat;
+	width:45px;
+	height:30px;
+	display:block;
+	float:left;
+	margin:0 0 0 10px;
+}
+.toyota{
+	background:url(../img/brandlogo/brandToyota.png) no-repeat;
+	width:45px;
+	height:30px;
+	display:block;
+	float:left;
+	margin:0 0 0 10px;
+}
+.hyundai{
+	background:url(../img/brandlogo/brandHyundai.png) no-repeat;
+	width:45px;
+	height:30px;
+	display:block;
+	float:left;
+	margin:0 0 0 10px;
+}
+.volkswagen{
+	background:url(../img/brandlogo/brandVolkswagen.png) no-repeat;
+	width:45px;
+	height:30px;
+	display:block;
+	float:left;
+	margin:0 0 0 10px;
+}
+.lexus{
+	background:url(../img/brandlogo/brandLexus.png) no-repeat;
+	width:45px;
+	height:30px;
+	display:block;
+	float:left;
+	margin:0 0 0 10px;
+}
+.nissan{
+	background:url(../img/brandlogo/brandNissan.png) no-repeat;
+	width:45px;
+	height:30px;
+	display:block;
+	float:left;
+	margin:0 0 0 10px;
+}
+.buick{
+	background:url(../img/brandlogo/brandBuick.png) no-repeat;
+	width:45px;
+	height:30px;
+	display:block;
+	float:left;
+	margin:0 0 0 10px;
+}
+.pulchritube{
+	background:url(../img/brandlogo/brandPulchritube.png) no-repeat;
+	width:45px;
+	height:30px;
+	display:block;
+	float:left;
+	margin:0 0 0 10px;
+}
+.citroen{
+	background:url(../img/brandlogo/brandCitroen.png) no-repeat;
+	width:45px;
+	height:30px;
+	display:block;
+	float:left;
+	margin:0 0 0 10px;
+}
+.subaru{
+	background:url(../img/brandlogo/brandSubaru.png) no-repeat;
+	width:45px;
+	height:30px;
+	display:block;
+	float:left;
+	margin:0 0 0 10px;
+}
+.kia{
+	background:url(../img/brandlogo/brandKia.png) no-repeat;
+	width:45px;
+	height:30px;
+	display:block;
+	float:left;
+	margin:0 0 0 10px;
+}
+.mazda{
+	background:url(../img/brandlogo/brandMazda.png) no-repeat;
+	width:45px;
+	height:30px;
+	display:block;
+	float:left;
+	margin:0 0 0 10px;
+}
+.mitsubishi{
+	background:url(../img/brandlogo/brandMitsubishi.png) no-repeat;
+	width:45px;
+	height:30px;
+	display:block;
+	float:left;
+	margin:0 0 0 10px;
+}
+.byd{
+	background:url(../img/brandlogo/brandByd.png) no-repeat;
+	width:45px;
+	height:30px;
+	display:block;
+	float:left;
+	margin:0 0 0 10px;
+}
+.cadillac{
+	background:url(../img/brandlogo/brandCadillac.png) no-repeat;
+	width:45px;
+	height:30px;
+	display:block;
+	float:left;
+	margin:0 0 0 10px;
+}
+.chery{
+	background:url(../img/brandlogo/chery.png) no-repeat;
+	width:45px;
+	height:30px;
+	display:block;
+	float:left;
+	margin:0 0 0 10px;
+}
+.ford{
+	background:url(../img/brandlogo/ford.png) no-repeat;
+	width:45px;
+	height:30px;
+	display:block;
+	float:left;
+	margin:0 0 0 10px;
+}
+/*left-nav css end*/
+
+/*signUpBox*/
+.baoming-title{
+	width:100%;
+	height:37px;
+	background:#720000;
+}
+.baoming-title p{
+	font-size:16px;
+	font-family:"微软雅黑";
+	color:#fff;
+	width:340px;
+	height:27px;
+	padding:7px 0 15px 170px;
+	float:left;
+}
+.baoming-title a{
+	font-size:14px;
+	font-family:"微软雅黑";
+	color:#fff;
+	width:50px;
+	height:27px;
+	padding:8px 0 0 5px;
+	float:left;
+}
+.signUpBoxBack{
+	background:url(../img/mengbanBack.png) repeat;
+	width:100%;
+	height:100%;
+	position:fixed;
+	z-index:77777;
+	top:0%;
+	display:none;
+}
+.signUpBox{
+	background:#fff;
+	width:570px;
+	height:215px;
+	margin:0 auto;
+	position:relative;
+	top:25%;
+}
+.cell1 p{
+	font-size:14px;
+	font-family:"微软雅黑";
+	padding:0 15px 0 0;
+	font-weight:700;
+}
+.enroll_btn{
+	position:relative;
+	top:5px;
+	width:70px;
+	height:30px;
+}
+/*signUpBox end*/
+
+
+
+/*baomingShow*/
+.showBaomingTitle{
+	background:#720000;
+	width:900px;
+	height:37px;
+	margin:0 auto;
+}
+.showBaomingTitle p{
+	font-size:16px;
+	font-family:"微博";
+	color:#fff;
+	font-weight:700;
+}
+.realtitle{
+	float:left;
+	padding:7px 0 0 15px;
+}
+.wholenum{
+	float:right;
+	padding:7px 15px 0 0;
+}
+.baomingList{
+	background:#fff;
+	width:900px;
+	height:400px;
+	margin:0 auto;
+}
+/*baomingShow end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

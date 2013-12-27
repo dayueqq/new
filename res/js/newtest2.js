@@ -1,5 +1,5 @@
 // JavaScript Document
-//è§£å†³getElementByIdåœ¨IEä¸‹å¤±æ•ˆçš„å‡½æ•°
+//½â¾ögetElementByIdÔÚIEÏÂÊ§Ğ§µÄº¯Êı
  function getElementsByClassName(classname){  
                     var d=document;  
                     var e=d.getElementsByTagName('*');  
@@ -17,7 +17,7 @@
     if(typeof document.getElementsByClassName !='function'){  
          document.getElementsByClassName=getElementsByClassName;  
     }  
-//å›¾ç‰‡é€æ˜è’™ç‰ˆ
+//Í¼Æ¬Í¸Ã÷ÃÉ°æ
  function openVessel(strId)
     {
         document.getElementById(strId).style.display = "block";
@@ -28,8 +28,8 @@
     }
 
 
-//ç‚¹å‡»æŠ¥åå¼¹å‡ºå¯¹è¯æ¡†
-function signUpBox(brandId,secondBrandId,series,province,city){//å‚æ•°ä¸ºcarIDï¼Œåœ°åŒºID
+//µã»÷±¨Ãûµ¯³ö¶Ô»°¿ò
+function signUpBox(brandId,secondBrandId,series,province,city){//²ÎÊıÎªcarID£¬µØÇøID
 	var signUpBox = window.parent.document.getElementById("signUpBox");
 	$(signUpBox).fadeIn("normal");
 	window.parent.sureBrand(brandId,secondBrandId,series);

@@ -1,0 +1,283 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>无标题文档</title>
+<link rel="stylesheet" href="../res/css/newtest.css">
+<script type="text/javascript">
+window.onload=function(){  
+try{
+     var s = parent.document.getElementById('iframeHeight')||null;
+}catch(e){}
+s?s.style.height = document.body.offsetHeight +50 +'px':'';
+} 
+</script>
+<script src="../res/js/newtest2.js" type="text/javascript" ></script>
+</head>
+
+<body>
+    <div class="main">
+    	<!--contant-list begin-->
+    	<div class="contant-list">
+        	<!--car-list begin-->
+            <ul class="car-list">
+            	<li class="car-list-card-middle"  onmouseout="closeVessel('operate0');" onmouseover="openVessel('operate0');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate0" class="operate" onmouseout="closeVessel('operate0');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>送1000元油卡</p>
+                          <p>送5000元现金礼</p>
+                          <p>大粤礼包</p>
+                          <div class="innerCase1"></div>
+	                      <a href="#" class="goShopping" id="goShopping">立即抢购</a>
+  	                    </div>	   
+                    </div> 
+                    	<a name="1">&nbsp;</a>
+                    	<img class="car-list-card-img" src="../res/images/benz-sl.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【Sl】</span>2013款 350 豪华运动型</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">154.80万</s>
+                        <p class="car-real-price"><span>￥</span>149.80万</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="car-list-card-middle"  onmouseout="closeVessel('operate1');" onmouseover="openVessel('operate1');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate1" class="operate" onmouseout="closeVessel('operate1');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>送1000元油卡</p>
+                          <p>送5000元现金礼</p>
+                          <p>大粤礼包</p>
+                          <div class="innerCase1"></div>
+	                      <a href="XXXX" class="goShopping" id="goShopping" target="_blank">立即抢购</a>
+  	                    </div>	   
+                    </div> 
+                    	<img class="car-list-card-img" src="../res/images/benz-sl.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【Sl】</span>2013款 350 豪华运动型</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">154.80万</s>
+                        <p class="car-real-price"><span>￥</span>149.80万</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="car-list-card-middle"  onmouseout="closeVessel('operate2');" onmouseover="openVessel('operate2');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate2" class="operate" onmouseout="closeVessel('operate2');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>送1000元油卡</p>
+                          <p>送5000元现金礼</p>
+                          <p>大粤礼包</p>
+                          <div class="innerCase1"></div>
+	                      <a href="XXXX" class="goShopping" id="goShopping" target="_blank">立即抢购</a>
+  	                    </div>	   
+                    </div> 
+                    	<img class="car-list-card-img" src="../res/images/benz-sl.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【Sl】</span>2013款 350 豪华运动型</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">154.80万</s>
+                        <p class="car-real-price"><span>￥</span>149.80万</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <ul class="car-list">
+            	<li class="car-list-card-middle"  onmouseout="closeVessel('operate3');" onmouseover="openVessel('operate3');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate3" class="operate" onmouseout="closeVessel('operate3');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>送1000元油卡</p>
+                          <p>送5000元现金礼</p>
+                          <p>大粤礼包</p>
+                          <div class="innerCase1"></div>
+	                      <a href="XXXX" class="goShopping" id="goShopping" target="_blank">立即抢购</a>
+  	                    </div>	   
+                    </div> 
+                    	<a name="0"></a>
+                    	<img class="car-list-card-img" src="../res/images/audi-s7.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【S7】</span>4.0TFSI 2013款</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">138.75万</s>
+                        <p class="car-real-price"><span>￥</span>120.00万</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="car-list-card-middle"  onmouseout="closeVessel('operate4');" onmouseover="openVessel('operate4');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate4" class="operate" onmouseout="closeVessel('operate4');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>送1000元油卡</p>
+                          <p>送5000元现金礼</p>
+                          <p>大粤礼包</p>
+                          <div class="innerCase1"></div>
+	                      <a href="XXXX" class="goShopping" id="goShopping" target="_blank">立即抢购</a>
+  	                    </div>	   
+                    </div> 
+                    	<img class="car-list-card-img" src="../res/images/audi-s7.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【S7】</span>4.0TFSI 2013款</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">138.75万</s>
+                        <p class="car-real-price"><span>￥</span>120.00万</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="car-list-card-middle"  onmouseout="closeVessel('operate5');" onmouseover="openVessel('operate5');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate5" class="operate" onmouseout="closeVessel('operate5');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>送1000元油卡</p>
+                          <p>送5000元现金礼</p>
+                          <p>大粤礼包</p>
+                          <div class="innerCase1"></div>
+	                      <a href="XXXX" class="goShopping" id="goShopping" target="_blank">立即抢购</a>
+  	                    </div>	   
+                    </div> 
+                    	<img class="car-list-card-img" src="../res/images/audi-s7.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【S7】</span>4.0TFSI 2013款</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">138.75万</s>
+                        <p class="car-real-price"><span>￥</span>120.00万</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <ul class="car-list">
+            	<li class="car-list-card-middle"  onmouseout="closeVessel('operate6');" onmouseover="openVessel('operate6');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate6" class="operate" onmouseout="closeVessel('operate6');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>送1000元油卡</p>
+                          <p>送5000元现金礼</p>
+                          <p>大粤礼包</p>
+                          <div class="innerCase1"></div>
+	                      <a href="XXXX" class="goShopping" id="goShopping" target="_blank">立即抢购</a>
+  	                    </div>	   
+                    </div> 
+                    	<a name="1">&nbsp;</a>
+                    	<img class="car-list-card-img" src="../res/images/benz-sl.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【Sl】</span>2013款 350 豪华运动型</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">154.80万</s>
+                        <p class="car-real-price"><span>￥</span>149.80万</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="car-list-card-middle"  onmouseout="closeVessel('operate7');" onmouseover="openVessel('operate7');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate7" class="operate" onmouseout="closeVessel('operate7');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>送1000元油卡</p>
+                          <p>送5000元现金礼</p>
+                          <p>大粤礼包</p>
+                          <div class="innerCase1"></div>
+	                      <a href="XXXX" class="goShopping" id="goShopping" target="_blank">立即抢购</a>
+  	                    </div>	   
+                    </div> 
+                    	<img class="car-list-card-img" src="../res/images/benz-sl.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【Sl】</span>2013款 350 豪华运动型</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">154.80万</s>
+                        <p class="car-real-price"><span>￥</span>149.80万</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="car-list-card-middle"  onmouseout="closeVessel('operate8');" onmouseover="openVessel('operate8');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate8" class="operate" onmouseout="closeVessel('operate8');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>送1000元油卡</p>
+                          <p>送5000元现金礼</p>
+                          <p>大粤礼包</p>
+                          <div class="innerCase1"></div>
+	                      <a href="XXXX" class="goShopping" id="goShopping" target="_blank">立即抢购</a>
+  	                    </div>	   
+                    </div> 
+                    	<img class="car-list-card-img" src="../res/images/benz-sl.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【Sl】</span>2013款 350 豪华运动型</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">154.80万</s>
+                        <p class="car-real-price"><span>￥</span>149.80万</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+                        <ul class="car-list">
+            	<li class="car-list-card-middle"  onmouseout="closeVessel('operate9');" onmouseover="openVessel('operate9');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate9" class="operate" onmouseout="closeVessel('operate9');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>送1000元油卡</p>
+                          <p>送5000元现金礼</p>
+                          <p>大粤礼包</p>
+                          <div class="innerCase1"></div>
+	                      <a href="XXXX" class="goShopping" id="goShopping" target="_blank">立即抢购</a>
+  	                    </div>	   
+                    </div> 
+                    	<a name="0"></a>
+                    	<img class="car-list-card-img" src="../res/images/benz-sl.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【Sl】</span>2013款 350 豪华运动型</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">154.80万</s>
+                        <p class="car-real-price"><span>￥</span>149.80万</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="car-list-card-middle"  onmouseout="closeVessel('operate10');" onmouseover="openVessel('operate10');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate10" class="operate" onmouseout="closeVessel('operate10');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>送1000元油卡</p>
+                          <p>送5000元现金礼</p>
+                          <p>大粤礼包</p>
+                          <div class="innerCase1"></div>
+	                      <a href="XXXX" class="goShopping" id="goShopping" target="_blank">立即抢购</a>
+  	                    </div>	   
+                    </div> 
+                    	<img class="car-list-card-img" src="../res/images/benz-sl.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【Sl】</span>2013款 350 豪华运动型</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">154.80万</s>
+                        <p class="car-real-price"><span>￥</span>149.80万</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="car-list-card-middle"  onmouseout="closeVessel('operate11');" onmouseover="openVessel('operate11');">
+                	<div class="car-list-card-contant" >
+                    <div id="operate11" class="operate" onmouseout="closeVessel('operate11');" style="display:none;">
+                        <div class="opacityLayer">
+                          <div class="innerCase"></div>
+                          <p>送1000元油卡</p>
+                          <p>送5000元现金礼</p>
+                          <p>大粤礼包</p>
+                          <div class="innerCase1"></div>
+	                      <a href="XXXX" class="goShopping" id="goShopping" target="_blank">立即抢购</a>
+  	                    </div>	   
+                    </div> 
+                    	<img class="car-list-card-img" src="../res/images/benz-sl.jpg"/>
+						<div class="car-list-card-info">
+                        <p class="car-model"><span>【Sl】</span>2013款 350 豪华运动型</p>
+                        <p class="car-price"><span>指导价:&nbsp;</span><s class="car-fake-price">154.80万</s>
+                        <p class="car-real-price"><span>￥</span>149.80万</p>
+                        </div>
+                    </div>
+                </li>
+                <p class="clear"></p>
+            </ul>
+            <!--car-list end-->
+        </div>
+        <!--contant-list end-->
+    </div> 
+</body>
+</html>
