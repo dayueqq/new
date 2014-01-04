@@ -132,8 +132,8 @@ body {
 	font-weight:bold;
 	color:#FFF;
 	font-size:16px;
-	margin-top:45px;
-	margin-bottom:25px;
+	position:relative;
+	top:310px;
 }
 .logo-nav
 {
@@ -909,7 +909,7 @@ body {
 .baomingList{
 	background:#fff;
 	width:900px;
-	height:400px;
+	height:450px;
 	margin:0 auto;
 }
 /*baomingShow end*/
@@ -938,10 +938,17 @@ body {
 .back-to-top:hover {
     background: rgba(114, 0, 0, 0.9);
 }
+.price-pic-back{
+	background:url(../img/price-pic-back.jpg) repeat-x;
+}
 
 
-
-
+.price-pic{
+	background:url(../img/price-pic2.jpg) no-repeat;
+	width:1200px;
+	height:360px;
+	margin:0 auto;
+}
 
 
 

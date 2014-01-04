@@ -75,16 +75,14 @@ function jsonpCallback(result){
     <!--banner end-->
     
     <!--focus-pic begin-->
-    <div class="focusbox">
-	<div id="fullbanner">
-		<div class="wrappic">
-			<ul>
-				<li class="plan"><a href="http://www.carexp.com.cn/web.php?id=4733&act=specialdata&aid=14907" target="_blank"><img width="950" height="400" src="http://www.88auto.com.cn/new/res/img/honda2.jpg"/></a></li>
-				<li class="plan"><a href="http://www.carexp.com.cn/web.php?id=4987&act=specialdata&aid=14653" target="_blank"><img width="950" height="400" src="http://www.88auto.com.cn/new/res/img/honda.jpg"/></a></li>
-				<li class="plan"><a href="http://www.carexp.com.cn/web.php?id=4723&act=specialdata&aid=10550" target="_blank"><img width="950" height="400" src="http://www.88auto.com.cn/new/res/img/chery.jpg"/></a></li>
-				<li class="plan"><a href="http://www.carexp.com.cn/web.php?id=4729&act=specialdata&aid=14600" target="_blank"><img width="950" height="400" src="http://www.88auto.com.cn/new/res/img/audi.jpg"/></a></li>
-			</ul>
-		</div>
+    <div class="price-pic-back">
+        <div class="price-pic">
+		<img usemap="#lipin2" src="http://www.88auto.com.cn/new/res/img/price-pic2.jpg" />
+        <map name="lipin2" id="lipin2">
+          <area shape="rect" coords="727,223,831,252" href ="javascript:void(0)" onclick="welcome()" />
+        </map>
+      </div>   	
+</div>
 		
 		<div class="helper">
 			<div class="mask-left"></div>
@@ -100,9 +98,7 @@ function jsonpCallback(result){
     
     <!--price nav begin-->
     <div class="nav" id="nav">
-    	<div class="nav-head">
-        	<p>&mdash;&mdash;&nbsp;&nbsp;&nbsp;&nbsp;特&nbsp;&nbsp;惠&nbsp;&nbsp;卖&nbsp;&nbsp;场&nbsp;&nbsp;&nbsp;&nbsp;&mdash;&mdash;</p>
-        </div>
+    	
         <div class="price-nav">
         	<ul id="price-ul" class="price-nav-ul">
                <li class="price-nav-list"><a href="http://www.88auto.com.cn/new/web/dongguan.html#carBox" target="carMainBox" onclick="selectPrice(0)">&nbsp;&nbsp;全部&nbsp;&nbsp;</a></li>
@@ -640,8 +636,8 @@ function jsonpCallback(result){
 	    var test = false;
 		$(window).scroll(function(){
              var h_num=$(window).scrollTop();
-             if(h_num>980){
-                $('.price-nav').addClass('fixer'); 
+              if(h_num>834){
+               $('.price-nav').addClass('fixer'); 
 				if(!test)
 				{
                    var stayPos = document.createElement("div");
