@@ -201,7 +201,7 @@ function jsonpCallback(result){
                                             广东省
                                         </option>
                                     </select>                                  
-                                    <select class="input_kuang2" id="address2" onchange="addMunu2()" disabled="disabled">
+                                    <select class="input_kuang2" id="address2" onchange="addMunu2()">
                                         <option id="79" value="79" selected="selected">
                                             东莞
                                         </option>
@@ -341,7 +341,7 @@ function jsonpCallback(result){
             </script>
             <script type="text/javascript">
                 //3级地区级联
-				function sureArea(province,city){
+				function sureArea(province){
 					var data = addData.arrAdd;
 					var address1 = document.getElementById("address1");
 					for (var i = 0; i < data.length; i++) {
@@ -352,13 +352,13 @@ function jsonpCallback(result){
 						address1.appendChild(o1);
 						if (data[i].id == province) {
 							o1.selected = "selected";
-							addMunu1(city);
+							addMunu1();
 						}
 	
 					}
 				}
 
-                function addMunu1(city) {
+                function addMunu1() {
                     var address2 = document.getElementById("address2");
                     address2.innerHTML = "";
                     var oo = document.createElement("option");
@@ -375,12 +375,9 @@ function jsonpCallback(result){
                             o2.id = data2[i].id;
                             o2.innerHTML = data2[i].name;
                             address2.appendChild(o2);
-							if (data2[i].id == city) {
-                        	o2.selected = "selected";
-                        	addMunu2();
-                    		}
                         }
                     }
+					addMunu2();
                 }
 
                 function addMunu2() {

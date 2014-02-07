@@ -67,7 +67,15 @@ function changeAera(num){
 		}
 		$.scrollTo(800, 300);
 	}else if(num == 4){
-		alert("¾´ÇëÆÚ´ý£¡");
+		iframe.src = "http://gd.qq.com/zt2014/gyh_dzhuhai/index.htm";
+		var li = document.getElementById("zhuhai");
+		li.className = 'selected';
+		var carPrice = document.getElementById("price-ul");
+		var linkTarget = carPrice.getElementsByTagName("a");
+		for(var i=0 ; i < linkTarget.length; i++){
+		linkTarget[i].href="http://gd.qq.com/zt2014/gyh_dzhuhai/index.htm#"+i;
+		}
+		$.scrollTo(800, 300);		
 	}else if(num == 5){
 		alert("¾´ÇëÆÚ´ý£¡");
 	}else if(num == 6){
